@@ -1,25 +1,25 @@
 ---
-layout: nil
+layout: default
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Shaun Bentzen</title>
- <link href="http://bentzen.ws/atom.xml" rel="self"/>
- <link href="http://bentzen.ws/"/>
+ <title>Tim D'Annecy</title>
+ <link href="http://tdannecy.github.io/atom.xml" rel="self"/>
+ <link href="http://tdannecy.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://bentzen.ws/</id>
+ <id>http://tdannecy.github.io/</id>
  <author>
-   <name>Shaun Bentzen</name>
-   <email>sbentzen@gmail.com</email>
+   <name>Tim D"Annecy</name>
+   <email>tdannecy@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://bentzen.ws{{ post.url }}"/>
+   <link href="http://tdannecy.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://bentzen.ws{{ post.id }}</id>
+   <id>http://tdannecy.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

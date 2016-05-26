@@ -1,21 +1,21 @@
 ---
-layout: nil
+layout: default
 ---
 {
-	"title": "Shaun Bentzen",
-	"link": "http://bentzen.ws/",
-	"description":"The personal blog of Shaun Bentzen",
+	"title": "Tim D'Annecy",
+	"link": "http://tdannecy.github.io",
+	"description":"Posts from Tim D'Annecy",
 	"author":{
-		"name":"Shaun Bentzen",
-		"email":"sbentzen@gmail.com"
+		"name":"Tim D'Annecy",
+		"email":"tdannecy@gmail.com"
 	},
 	"items":[{% for post in site.posts %}
 	{
 		"title":"{{ post.title }}",
-		"link": "http://bentzen.ws{{ post.url }}",
+		"link": "http://tdannecy.github.io/{{ post.url }}",
 		"pubDate":"{{post.date}}",
-		"postId":"http://bentzen.ws/{{post.id}}"	
+		"postId":"http://tdannecy.github.io/{{post.id}}"
 	},{% endfor %}
 	{}
-	]			
+	]
 }

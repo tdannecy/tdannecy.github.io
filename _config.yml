@@ -4,12 +4,12 @@ baseurl:    /
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins:     ./_plugins_dir
 
 future:      true
 lsi:         false
 markdown:    kramdown
-permalink:   date   
+permalink:   date
 
 maruku:
   use_tex:    false
