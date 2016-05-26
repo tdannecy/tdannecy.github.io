@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Shaun Bentzen</title>
+ <link href="http://bentzen.ws/atom.xml" rel="self"/>
+ <link href="http://bentzen.ws/"/>
+ <updated>2016-05-26T13:17:57-04:00</updated>
+ <id>http://bentzen.ws/</id>
+ <author>
+   <name>Shaun Bentzen</name>
+   <email>sbentzen@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>
