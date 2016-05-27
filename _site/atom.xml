@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-<meta name="google-site-verification" content="eIXjvPN_JTpGbwY2EiSHk8JaYyUWtQa7CVr7EBXFQc4" />
-<meta name="google-site-verification" content="ZHJKmSKpDU7fr8R8PULx5EKmdbI3EXT3xTtq9dI32bQ" />
+<!--<meta name="google-site-verification" content="eIXjvPN_JTpGbwY2EiSHk8JaYyUWtQa7CVr7EBXFQc4" />-->
+<!--<meta name="google-site-verification" content="ZHJKmSKpDU7fr8R8PULx5EKmdbI3EXT3xTtq9dI32bQ" />-->
 <title></title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -45,15 +45,15 @@
       <a class="brand-logo" href="/index.html">Tim D'Annecy</a>
       <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/blog.html">Blog</a></li>
         <li><a href="mailto:tdannecy@gmail.com">Contact</a></li>
         <li><a href="http://flnowarchive.org">Florida NOW Archive</a></li>
         <li><a href="#" class="dropdown-button" data-activates="social-dropdown">Web links<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
       </ul>
       <ul class="side-nav" id="mobile">
-        <li><a href="index.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/blog.html">Blog</a></li>
         <li><a href="mailto:tdannecy@gmail.com">Contact</a></li>
         <li><a href="http://flnowarchive.org">Florida NOW Archive</a></li>
       </ul>
@@ -69,13 +69,56 @@
  <title>Tim D'Annecy</title>
  <link href="http://tdannecy.github.io/atom.xml" rel="self"/>
  <link href="http://tdannecy.github.io/"/>
- <updated>2016-05-26T15:05:02-04:00</updated>
+ <updated>2016-05-26T22:55:13-04:00</updated>
  <id>http://tdannecy.github.io/</id>
  <author>
    <name>Tim D"Annecy</name>
    <email>tdannecy@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Introduction to  "Observations on mental health in the Soviet Union and Eastern Europe" by Henry P. David (1968)</title>
+   <link href="http://tdannecy.github.io/2016/05/25/introduction-to-observations-on-mental-health.html"/>
+   <updated>2016-05-25T00:00:00-04:00</updated>
+   <id>http://tdannecy.github.io/2016/05/25/introduction-to-observations-on-mental-health</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Today, more than 50 years after the October 1917 revolution, Soviet life reflects a mixture of ageless Russian culture, evolving Marxist ideology and the dynamics of modern technology. The most significant aspect of Soviet life is that it is planned, with central direction residing in the state. There is considerable pressure toward conformity, toward behaving in a socially and politically acceptable fashion. There is a relative de-emphasis of personal needs in favor of the primacy of the collective to which the individual is expected to yield.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From birth through nursery school and all the school grades and Communist Party youth organizations, the Soviet child is reared to function as a member of the collective. Personality development and behavior change are achieved through group rewards and punishments. Individual achievements are considered in terms of their value to the collective. Membership in a collective provides identification, a sense of personal well-being, and satisfaction of material and emotional needs. It serves to socialize the Soviet child and to strengthen early acceptance of the values of adult society.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The concept of the collective also dominates university life. Both undergraduate and graduate students are fully aware that they receive a very expensive state-subsidized education, plus cost-of-living stipends. There seems to be an understanding that this education is provided because the larger collective–the people of the Soviets–need the student’s talents and the resulting contribution he is expected to make. This is in concert with the Soviet attitude that every citizen, whether male or female, should contribute to society which, in turn, will meet his need for social security. One Soviet colleague put it this way, “I don’t have to save for a rainy day. I know I will always have a job or a pension. Medical care is free and our children will be educated without any cost to us”.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Russian Embassy in Havana, Cuba</title>
+   <link href="http://tdannecy.github.io/2015/11/11/havana.html"/>
+   <updated>2015-11-11T00:00:00-05:00</updated>
+   <id>http://tdannecy.github.io/2015/11/11/havana</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/2015-11-11-havana.jpg&quot; alt=&quot;Russian Embassy in Havana, Cuba&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Take care of your ovaries, kid!</title>
+   <link href="http://tdannecy.github.io/2015/04/22/ovaries.html"/>
+   <updated>2015-04-22T00:00:00-04:00</updated>
+   <id>http://tdannecy.github.io/2015/04/22/ovaries</id>
+   <content type="html">&lt;p&gt;This comic always strikes me as funny. It’s from the University of Radical Women in Gainesville Historical Exhibit and it depicts feminist stereotypes from the 1970s.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-22-comic.jpg&quot; alt=&quot;Well, can&#39;t stop to talk now -- gotta get to my C.R. group -- then there&#39;s a N.O.W. meeting after that. Take care of your ovaries, kid!&quot; title=&quot;Well, can&#39;t stop to talk now -- gotta get to my C.R. group -- then there&#39;s a N.O.W. meeting after that. Take care of your ovaries, kid!&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Well, can’t stop to talk now – gotta get to my C.R. group – then there’s a N.O.W. meeting after that. Take care of your ovaries, kid!&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
  
  
 </feed>

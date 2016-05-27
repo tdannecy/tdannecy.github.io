@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-<meta name="google-site-verification" content="eIXjvPN_JTpGbwY2EiSHk8JaYyUWtQa7CVr7EBXFQc4" />
-<meta name="google-site-verification" content="ZHJKmSKpDU7fr8R8PULx5EKmdbI3EXT3xTtq9dI32bQ" />
+<!--<meta name="google-site-verification" content="eIXjvPN_JTpGbwY2EiSHk8JaYyUWtQa7CVr7EBXFQc4" />-->
+<!--<meta name="google-site-verification" content="ZHJKmSKpDU7fr8R8PULx5EKmdbI3EXT3xTtq9dI32bQ" />-->
 <title></title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -45,15 +45,15 @@
       <a class="brand-logo" href="/index.html">Tim D'Annecy</a>
       <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/blog.html">Blog</a></li>
         <li><a href="mailto:tdannecy@gmail.com">Contact</a></li>
         <li><a href="http://flnowarchive.org">Florida NOW Archive</a></li>
         <li><a href="#" class="dropdown-button" data-activates="social-dropdown">Web links<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
       </ul>
       <ul class="side-nav" id="mobile">
-        <li><a href="index.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/blog.html">Blog</a></li>
         <li><a href="mailto:tdannecy@gmail.com">Contact</a></li>
         <li><a href="http://flnowarchive.org">Florida NOW Archive</a></li>
       </ul>
@@ -72,6 +72,24 @@
 		"email":"tdannecy@gmail.com"
 	},
 	"items":[
+	{
+		"title":"Introduction to  "Observations on mental health in the Soviet Union and Eastern Europe" by Henry P. David (1968)",
+		"link": "http://tdannecy.github.io//2016/05/25/introduction-to-observations-on-mental-health.html",
+		"pubDate":"2016-05-25 00:00:00 -0400",
+		"postId":"http://tdannecy.github.io//2016/05/25/introduction-to-observations-on-mental-health"
+	},
+	{
+		"title":"Russian Embassy in Havana, Cuba",
+		"link": "http://tdannecy.github.io//2015/11/11/havana.html",
+		"pubDate":"2015-11-11 00:00:00 -0500",
+		"postId":"http://tdannecy.github.io//2015/11/11/havana"
+	},
+	{
+		"title":"Take care of your ovaries, kid!",
+		"link": "http://tdannecy.github.io//2015/04/22/ovaries.html",
+		"pubDate":"2015-04-22 00:00:00 -0400",
+		"postId":"http://tdannecy.github.io//2015/04/22/ovaries"
+	},
 	{}
 	]
 }

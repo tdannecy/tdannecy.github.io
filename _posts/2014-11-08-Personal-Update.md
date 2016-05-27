@@ -1,10 +1,9 @@
 ---
 layout: post
+title: Test
 published: false
-meta: {}
 
 tags: Personal
-type: post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper dignissim justo, vitae condimentum tellus consectetur quis. Sed viverra convallis eros, id sodales ante maximus et. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Mauris at dui odio. Integer sodales facilisis consequat. Duis tincidunt nulla tellus, non dictum erat volutpat vitae. Morbi justo ante, malesuada at molestie id, scelerisque at risus. Sed egestas gravida fringilla. Pellentesque ac lacus semper, sodales libero in, pharetra urna. Nunc imperdiet vitae arcu quis volutpat. Curabitur nec dictum sapien. Pellentesque aliquet dapibus metus facilisis fringilla. In hac habitasse platea dictumst.
