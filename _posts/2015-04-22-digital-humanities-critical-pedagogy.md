@@ -3,7 +3,7 @@ layout: post
 title: Digital humanities critical pedagogy
 published: true
 
-tags: 
+tags: school
 ---
 
 I wrote this paper for a course, but I'm not too happy with it. I might come back later and edit it when I have time.

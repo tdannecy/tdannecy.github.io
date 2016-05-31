@@ -1,3 +1,11 @@
+---
+layout: post
+title: Digital humanities undergraduate course website
+published: true
+
+tags: school
+---
+
 For one of my classes, I had to write an overview of a course website for my conceptual undergraduate class, "Introduction to Humanities Computing." I wanted to have a site that fulfills the fundamental "ontological commitments&rdquo; of Digital Humanities: openness, collaboration, collegiality and connectedness, diversity, and experimentation [(Spiro 25-30)](https://paperpile.com/c/4O2eZN/FQSO/?locator=25-30). My class prioritizes digital publishing and this course site is the facilitator for this type of work. I will explain this concept further, but, simply put, I wanted this site be primarily a space where students could make their writings public and talk about their progress. The site I wish to create would have an inviting atmosphere for collaboration where all students feel connected to each other and their work is valued. Students should be able to get feedback on their work and feel comfortable giving feedback or suggesting changes, no matter how long the post is.
 
 To best explain these concepts for the site, I created a blank Wordpress and added a blog post that I wrote for one of my classes for an example. I also wrote a few generic comments and questions from students and replied to them as if I was the professor. All content in the site example is mine except the theme, which was created by the Wordpress developers. I&rsquo;ll discuss a few different important parts about the site in the following sections and then I&rsquo;ll conclude by talking about how this type of site could benefit the students in the near future. I&rsquo;ve provided screenshots of the site and explained the general concept of what each image addresses. 
