@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drawings of women
+title: Found! Feminist drawings of 
 published: true
 
 tags: art
