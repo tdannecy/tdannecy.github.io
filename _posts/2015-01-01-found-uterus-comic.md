@@ -7,7 +7,7 @@ tags: art, politics, school
 ---
 I came across a funny comic in [one of the newsletters](http://flnowarchive.org/mediawiki/index.php/Box_24_Folder_3_Document_30) from Tallahassee NOW dated February 1980. Thought I'd share it.
 
-![uterus](/images/2015-01-01-uterus-comic.png)
+![uterus](/images/2015-01-01-found-uterus-comic.png)
 
 Transcription:
 
