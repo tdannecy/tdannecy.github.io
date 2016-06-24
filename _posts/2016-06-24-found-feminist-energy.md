@@ -14,5 +14,7 @@ I came across a blurb in [a newsletter from Tallahassee NOW](http://flnowarchive
 > Loretta Bussiere
 
 > The Women's Movement has taught me that "we don't want a piece of the pie" ... "cause the pie sucks." Our nation's entire male intra-structure is based totally and completely on "oil"--a resource soon to run out and possible cause the third male "cock" war. Alternative Technology, also known as Appropriate Technology is a feminist technology. What do men say about solar, and about wind? They call them passive ... they are renewable. This is the opposite of what is male dominated. It is job producing, it is not inflationary and best of all, it's not controlled by men. This means that women can enter these markets without threatening men--this can be a future, an economic base of our country that we can play a role in.
+
 > NOW needs to start following the politics of energy--both on the Federal level and in every state. When Governor Graham released his Energy Legislative package last week, Talahassee NOW or even state NOW should have taken a long hard look at it--a woman's look.
+
 > Women are in an obvious position to say, not, "we want a piece of the pie," but, "we're going to redefine the pie." We are in the movement for economic democracy and when we win it, and we will because we have to, it's going to be better for everybody--not just women.
