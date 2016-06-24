@@ -3,7 +3,7 @@ layout: post
 title: 
 published: false
 
-tags: elementary OS
+tags: elementary OS, tech
 ---
 Agenda is a "simple, slick, speedy, no-nonsense task manager." 
 

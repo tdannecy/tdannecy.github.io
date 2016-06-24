@@ -3,7 +3,7 @@ layout: post
 title: Displaying ZawGyi and Myanmar unicode fonts on Chrome
 published: true
 
-tags: brutalism
+tags: tech
 ---
 Chrome doesn't display Burmese language characters correctly and you won't be able to read anything on websites written in them. Both ZawGyi or unicode characters show up as blank boxes and there's no way to change the Language or Input settings in Chrome to get them to show up. It's been this way for 51 versions. 
 
