@@ -3,7 +3,7 @@ layout: default
 ---
 {
 	"title": "Tim D'Annecy",
-	"link": "http://tdannecy.github.io",
+	"link": "http://tdannecy.me",
 	"description":"Posts from Tim D'Annecy",
 	"author":{
 		"name":"Tim D'Annecy",
@@ -12,9 +12,9 @@ layout: default
 	"items":[{% for post in site.posts %}
 	{
 		"title":"{{ post.title }}",
-		"link": "http://tdannecy.github.io/{{ post.url }}",
+		"link": "http://tdannecy.me/{{ post.url }}",
 		"pubDate":"{{post.date}}",
-		"postId":"http://tdannecy.github.io/{{post.id}}"
+		"postId":"http://tdannecy.me/{{post.id}}"
 	},{% endfor %}
 	{}
 	]
