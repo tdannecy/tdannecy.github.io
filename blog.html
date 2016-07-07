@@ -11,9 +11,10 @@ title: Blog
 		            <div class="card-content">
 		              <span class="card-title black-text">{{ post.title }}</span>
 		              <p>{{post.excerpt}}<br/>
-						  Posted on: {{ post.date | date_to_string }}
-					  
-					  </p>
+										div class="chip">
+    								{{ post.date | date_to_string }}
+  									</div>					  
+					  			</p>
 		            </div>
 		            <div class="card-action">
 		              <a href="{{post.url}}">Read</a>
