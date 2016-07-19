@@ -1,25 +1,71 @@
 ---
-layout: default
+ layout: default 
 ---
-<div class="post-ribbon"></div>
-<main class="post-main mdl-layout__content">
-  <div class="post-container mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-    <div class="post-section mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-      <div class="mdl-color-text--grey-500">
-      {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.categories %} • {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
-      </div>
-      <h3>{{ page.title }}</h3>
-      <article class="post-content">
-        <p>{{ content }}</p>
-      </article>
-      <!-- Disqus comments -->
-      {% if site.disqus %}
-      <div>
-        <h3>Comments</h3>
-        {% include disqus.html %}
-      </div>
-      {% endif %}
+<div id="skrollr-body">
+<div class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+    <br/><hr/><br/>
+    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/">Share</button>
+    <button class="{{ site.css }} darken-2 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/blog/">Back Home</button>
+    <br/>&nbsp;
+    <br>
+    <h3>Leave a comment</h3><br>
+
+
+
+
+
+
+      <div class="row">
+    <div class="col s8">
+      <ul class="tabs {{site.css}} z-depth-1">
+        <li class="waves-effect tab col s3 {{site.css}} darken-1"><a class="white-text text-darken-4 active" href="#markdown">Markdown</a></li>
+        <li class="waves-effect tab col s3 {{site.css}} darken-1"><a class="white-text text-darken-4" href="#preview">Preview</a></li>
+      </ul>
     </div>
+
+
+    <br><br><br>
+    <div id="markdown" class="col s8">
+
+          <div class="row">
+  <form class="col s12">
+    <div class="row {{site.css}}-text">
+     <div class="input-field col s12">
+        <input id="first_name" type="text" class="validate materialize-textarea {{site.css}}-text text-darken-3">
+        <label for="first_name" class="{{site.css}}-text text-darken-3">Title</label>
+      </div>
+      <div class="input-field col s12 {{site.css}}-text">
+        <textarea id="textarea1" class="materialize-textarea {{site.css}}-text text-darken-3"></textarea>
+        <label for="textarea1" class="{{site.css}}-text text-darken-3">Enter comment</label>
+      </div>
+    </div>
+  </form>
+</div>
+     <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/"><i class="mdi-action-backup"></i> &nbsp; Log in to comment</button>
+
+          </div>
+
+
+    <div id="preview" class="col s12">
+
+
+          hhhh
+
+
+          </div>
   </div>
-</main>
+    <br><br><br>
+
+    
+
+</div>
+</div>

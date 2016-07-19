@@ -1,17 +1,25 @@
 ---
 layout: post
-title: Test
-published: false
-
-tags: Personal
+title:  "Welcome to Jekyll!"
+date:   2015-02-07 23:25:49
+cover: "{{site.baseurl}}/img/2.jpg"
 ---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper dignissim justo, vitae condimentum tellus consectetur quis. Sed viverra convallis eros, id sodales ante maximus et. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Mauris at dui odio. Integer sodales facilisis consequat. Duis tincidunt nulla tellus, non dictum erat volutpat vitae. Morbi justo ante, malesuada at molestie id, scelerisque at risus. Sed egestas gravida fringilla. Pellentesque ac lacus semper, sodales libero in, pharetra urna. Nunc imperdiet vitae arcu quis volutpat. Curabitur nec dictum sapien. Pellentesque aliquet dapibus metus facilisis fringilla. In hac habitasse platea dictumst.
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Proin convallis id mi at accumsan. Pellentesque convallis, est porttitor ullamcorper dapibus, eros elit efficitur quam, vitae auctor urna neque in mauris. Sed in erat erat. Vivamus tempor imperdiet accumsan. Fusce at interdum turpis, eget malesuada massa. Vestibulum ut porttitor enim. Nullam euismod ornare mauris, sed auctor quam ullamcorper ut. Aliquam molestie elit leo, gravida faucibus diam semper non. Duis eu ornare orci. Sed ornare, ipsum vel posuere finibus, tellus nisi ultrices arcu, nec facilisis velit magna et mauris.
+Jekyll also offers powerful support for code snippets:
 
-Donec in facilisis urna. Cras mi lacus, ornare a laoreet non, semper vitae magna. Duis volutpat justo in lectus rhoncus, non auctor mauris ultrices. Sed venenatis sollicitudin ipsum quis commodo. Donec eleifend vehicula sem sed ultricies. Aliquam dignissim maximus gravida. Phasellus blandit lacus nec elementum faucibus. In non mi lacus. Praesent ut sapien ultrices est suscipit mollis sit amet eu metus. Duis egestas dictum vehicula. Nulla molestie in enim vel aliquam. Donec erat est, vestibulum eu mauris sed, finibus efficitur felis.
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-Morbi dapibus semper mi, vel luctus nisi ultrices ac. Donec eget metus quis nisl sodales ultricies quis nec leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam auctor, lacus sed sodales blandit, massa ipsum sollicitudin diam, pellentesque luctus massa purus in urna. Suspendisse potenti. Fusce egestas tortor arcu, non ornare turpis sodales et. Quisque id maximus metus, vel dictum elit. Vivamus et nunc ac ex pretium venenatis ut at massa. Nam ut volutpat libero. Nunc consectetur sit amet erat et porttitor. Sed eget ligula non diam cursus sodales. Pellentesque odio nibh, posuere non hendrerit et, sollicitudin sit amet odio. Maecenas nulla urna, consequat in tempor nec, cursus eu mauris. Sed consequat diam quis diam sodales tincidunt.
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-Suspendisse sit amet odio nisl. Nulla ullamcorper, sapien quis volutpat condimentum, quam est interdum lectus, et iaculis purus dolor eget dui. Nulla et magna vitae leo malesuada interdum sed quis diam. Aliquam erat volutpat. In hac habitasse platea dictumst. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a sem sapien.
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
