@@ -7,12 +7,12 @@
   },
   {
     "text": "About",
-    "url": "/about/",
+    "url": "/about",
     "icon": "fa-comments"
   },
   {
-    "text": "Projects",
-    "url": "/projects",
+    "text": "Class notes",
+    "url": "/class-notes",
     "icon": "fa-desktop"
   },
   {
