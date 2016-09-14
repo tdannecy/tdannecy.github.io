@@ -1,18 +1,14 @@
 [
   {
     "icon": "fa-facebook",
-    "link": ""
+    "link": "https://www.facebook.com/tdannecy"
   },
   {
     "icon": "fa-twitter",
-    "link": ""
+    "link": "https://twitter.com/tdannecy"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
-  },
-  {
-    "icon": "fa-stack-exchange",
-    "link": ""
+    "link": "https://www.linkedin.com/in/tdannecy"
   }
 ]
