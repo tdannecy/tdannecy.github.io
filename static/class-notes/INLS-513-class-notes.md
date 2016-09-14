@@ -1,0 +1,135 @@
+Class notes - 513 (Resource selection and evaluation)
+=====================================================
+
+# September 12, 2016
+The professor started the class by continuing the discussion about 
+the longevity of libraries and their relationships and 
+responsibilities to the communities in which they works. 
+
+## Evans and Sapanaro
+The professor then moved to discuss the article from Evans and 
+Sapanaro, noting that they make several important points. First of 
+all, libraries are physical places. They are tasked with collecting 
+important information, promoting literacy, organizing materials, 
+providing assistance with research and locating materials, and 
+preservation of information. The class noted that the contention 
+that libraries be physical places is a bit outdated. In many of 
+their experiences, there are 
+
+It was noted that most of our discussions about collection 
+development, we have to take inter library loan into account. 
+Smaller libraries rely on JIT (Just In Time) delivery where they 
+can request items from partner libraries. Larger libraries can rely 
+on a JIC (Just In Case) approach where they can hold items for 
+users, even if those items are never checked out.
+
+## Assignment 1
+The professor noted that there are several important things to take 
+into account when evaluating a resource.
+
+* Format (print, electronic, illustrations)  
+* Scope (purpose, coverage, currency)  
+* Relation to similar works (unique, new edition, conference proceedings)  
+* Authority (who is the author, editor, publisher)  
+* Treatment (accuracy, objectivity, intended audience)  
+* Arrangement (sequence, indexing)  
+* Cost (price, licensing - especially with state government)  
+
+My book is *Debates in the Digital Humanities*, a digital book 
+published to address some of the changes in the field.
+
+## Electronic collection building
+The professor then discussed what factors to take into account when 
+building an electronic collection. These digital sources include 
+full text databases, e-books, digitizing existing books (Project 
+Gutenberg or Google Books), numeric databases, institutional 
+repositories, music, art, law, medicine. 
+
+### Issues with electronic acquisitions
+The class noted that licensing is probably the most important thing 
+to take into account when looking to expand your collection. The 
+professor noted that licensing also includes a lot of connected 
+concepts. There are ownership issues, access issues, payment 
+differences, support, and a lot of other technical issues that are 
+intertwined.
+
+The professor then moved to discuss to some of the issues 
+encountered when adding materials to your library in general. These 
+issues include issues in content, access, support, cost (ROI), 
+legal issues, and many other interconnected issues that cannot be 
+separated from the content. 
+
+### Leasing vs. ownership
+Some of the advantages to leasing includes a built-in support 
+system where you are not liable for outages or other technical 
+issues. A disadvantage to this, however, is that if that product or 
+company fails, you are powerless to do anything.
+
+## Acquisition terms
+The professor then noted several important acquisition terms:  
+
+* **Aggregated package** - Content which is based on agreements 
+between vatious publishers and the aggregator. The content is not 
+always stable and titles may change.  
+* **Aggregator** - A third party providing full-text access to 
+articles, books through common interfaces.  
+* **Embargo** - Limitations on access to a resource usually to 
+prevent cancellations of individual subscriptions. An example of an 
+embargo is when a publisher website provides current issues of a 
+specific journal while an aggregator will only provide issues older 
+than one year. These lengths vary and in some cases can be 
+considered a "moving wall."  
+* **Ephemera or fugitive material** - Matieral of everyday life 
+that is not usually collected. Items such as pamphlets, fliers, 
+performance programs, and comic books can be considered ephemera or 
+fugitive material. The class noted that these items are often 
+collected by university repositories and stored in applicable 
+special collections, but this is not part of what most libraries 
+collect. 
+
+## E-book package analysis
+The professor then projected a comparative list that details an 
+e-book package price list and discussed some of the caveats that go 
+into this offer. The class also noted that while sometimes the 
+Devil is in the details, in the case of this price list, there may 
+be small benefits that are in the details that aren't as easily 
+articulated, but are critical to differentiating between them.
+
+# September 7, 2016
+The professor started the class by noting that she has uploaded a 
+reading schedule document to Sakai that we can use to read ahead 
+and anticipate when assignments are due through the end of 
+September.
+
+Additionally, she noted that the assignment instructions are 
+usually listed next to the schedule, but in most cases, they're all 
+due on Sakai.
+
+## Assignment 1 information
+The professor then discussed the overview of Assignment 1. She 
+noted that it is difficult to narrow a review down into something 
+that's 350-500 words, but it **can** and **should** be done for 
+practice writing in professional settings.
+
+Implied from the assignment type, the professor noted that the tone 
+of the resource should be directed towards influencing or 
+encouraging the administration or procurement team. It was also 
+noted that it should be a title with which we have not previously 
+read, but a subject in with or an author in whom we are interested. 
+This assignment is also to encourage us to publish without having 
+to write entire articles or chapters.
+
+## Group work
+The professor then split up the class into groups based on which 
+articles that people read for this meeting.
+
+## Collection selection criteria
+In introducing the German library system, the professor projected a 
+presentation of several collection development policy differences. 
+Despite these, all libraries can use these criteria to make a 
+better collection: * Format (print, electronic, illustrations) * 
+scope (years, geographic, topical) * Relation to similar works 
+(volumes, series) * Authority (who is the author or publisher) * 
+Treatment (accuracy, objectivity, who is intended audience) * 
+Arrangement (sequence indexing) * Cost (price, licensing, 
+especially with state government)
