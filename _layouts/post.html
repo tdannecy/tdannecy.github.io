@@ -1,71 +1,67 @@
 ---
- layout: default 
+layout: default
 ---
-<div id="skrollr-body">
-<div class="post">
-
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    </header>
-
-    <article class="post-content">
-        {{ content }}
-    </article>
-    <br/><hr/><br/>
-    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/">Share</button>
-    <button class="{{ site.css }} darken-2 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/blog/">Back Home</button>
-    <br/>&nbsp;
-    <br>
-    <h3>Leave a comment</h3><br>
-
-
-
-
-
-
-      <div class="row">
-    <div class="col s8">
-      <ul class="tabs {{site.css}} z-depth-1">
-        <li class="waves-effect tab col s3 {{site.css}} darken-1"><a class="white-text text-darken-4 active" href="#markdown">Markdown</a></li>
-        <li class="waves-effect tab col s3 {{site.css}} darken-1"><a class="white-text text-darken-4" href="#preview">Preview</a></li>
-      </ul>
+<div class="post-content well">
+<article class="content">
+    <div class="post">{{ content }}</div>
+    <hr />
+    {% include share-page.html %}
+</article>
+<hr />
+{% assign hasSimilar = '' %}
+{% for post in site.posts  %}
+    {% assign postHasSimilar = false %}
+    {% for tag in post.categories %}
+        {% for thisTag in page.categories %}
+            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+                <div class="panel-body">
+                <h4>Related Posts</h4>
+                <ul>
+                {% endif %}
+                <li class="relatedPost">
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.categories %}
+                        <small>(Categories: {% for category in post.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %})</small>
+                    {% endif %}
+                </li>
+                {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                {% assign postHasSimilar = true %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+    </ul>
     </div>
+{% endif %}
 
-
-    <br><br><br>
-    <div id="markdown" class="col s8">
-
-          <div class="row">
-  <form class="col s12">
-    <div class="row {{site.css}}-text">
-     <div class="input-field col s12">
-        <input id="first_name" type="text" class="validate materialize-textarea {{site.css}}-text text-darken-3">
-        <label for="first_name" class="{{site.css}}-text text-darken-3">Title</label>
-      </div>
-      <div class="input-field col s12 {{site.css}}-text">
-        <textarea id="textarea1" class="materialize-textarea {{site.css}}-text text-darken-3"></textarea>
-        <label for="textarea1" class="{{site.css}}-text text-darken-3">Enter comment</label>
-      </div>
-    </div>
-  </form>
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev pull-left" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next pull-right" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
 </div>
-     <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/"><i class="mdi-action-backup"></i> &nbsp; Log in to comment</button>
-
-          </div>
 
 
-    <div id="preview" class="col s12">
+<div class="disqus-comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* <![CDATA[ */
 
+        var disqus_shortname = "{{ site.disqus_shortname }}";
+        var disqus_identifier = "{{ site.url }}_{{ page.title }}";
+        var disqus_title = "{{ page.title }}";
 
-          hhhh
-
-
-          </div>
-  </div>
-    <br><br><br>
-
-    
-
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    /* ]]> */
+    </script>
 </div>
 </div>
