@@ -17,4 +17,4 @@ have left in this master's.
 
 In any case, here's an update of my work.
 
-<iframe width=100% src="https://docs.google.com/document/d/159X37TVOIAG4Hk5ZEhCPGTJeOZJfYVDMOCdgoQI9PQ4/pub?embedded=true"></iframe>
+<iframe width="100%" height="500px" src="https://docs.google.com/document/d/159X37TVOIAG4Hk5ZEhCPGTJeOZJfYVDMOCdgoQI9PQ4/pub?embedded=true"></iframe>
