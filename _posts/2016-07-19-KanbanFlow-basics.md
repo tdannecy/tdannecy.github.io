@@ -1,12 +1,11 @@
 ---
 layout: post
-title: KanbanFlow part 1: The Basics
+title: KanbanFlow basics
 published: true
 
 tags: tech, productivity
 ---
 
-# KanbanFlow part 1: The Basics
 KanbanFlow is a personal task management website that takes your Kanban board to the next level! I’ve been using it for a few months and I absolutely love it. It has some cool features that can really improve your workflow and combines task management with time management. 
 
 To sign up and get started, visit [https://kanbanflow.com/](https://kanbanflow.com/)
@@ -18,7 +17,9 @@ To sign up and get started, visit [https://kanbanflow.com/](https://kanbanflow.c
 First things first. Let’s create a new board and start putting tasks on it.
 
 1. At the top of the page, click the **Select board** box and click **Create board**. From this page, type in a name for your board and click **Next**. You can change this later, so don’t stress about it!
+
 1. Now, set your columns. Starting from the top, these columns will set your left-to-right workflow on your Kanban. You might want to add a “Holding” or “Waiting” column, but it really depends on your workflow. If you’re not sure about what to use, check out the book [Personal Kanban: Mapping work, navigating life by Jim Benson](https://www.amazon.com/Personal-Kanban-Mapping-Work-Navigating/dp/1453802266/). 
+
 1. Click the **Create board** button when you're finished.
 
 ![Screenshot of the KanbanFlow board creation settings page](/inbox/2016-07-19-KanbanFlow-create-board.png)
