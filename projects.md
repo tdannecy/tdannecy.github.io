@@ -1,5 +1,5 @@
 ---
-layout: class-notes
+layout: Projects
 title: Class notes
 permalink: /class-notes/
 ---
