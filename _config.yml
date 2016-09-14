@@ -1,9 +1,9 @@
 title: Tim D'Annecy
 description: Tim's personal site
 author: Tim D'Annecy
-logo: /hcz-jekyll-blog/static/img/avatar.png
+logo: /images/me500.jpg
 github: https://github.com/tdannecy
-about: Freelance developer
+about: Graduate student in North Carolina
 
 baseurl: "http://tdannecy.me"
 url: "http://tdannecy.me"
