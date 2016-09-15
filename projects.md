@@ -1,5 +1,5 @@
 ---
 layout: Projects
 title: Class notes
-permalink: /class-notes/
+permalink: /projects/
 ---
