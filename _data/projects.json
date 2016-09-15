@@ -4,7 +4,7 @@
 		"image": "placeholder.jpg",
 		"url": "resume.pdf",
 		"date": "Fall 2016",
-		"tags": ["archives",""]
+		"tags": ["archives"]
 	},
 	{
 		"name": "INLS - 556",
@@ -23,6 +23,7 @@
 	{
 		"name":	"INLS - 582",
 		"image": "placeholder.jpg",
+		"url":	"#",
 		"date": "Fall 2016",
 		"tags": ["Android","nodejs"]
 	}
