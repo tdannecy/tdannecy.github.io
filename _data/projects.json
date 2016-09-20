@@ -2,14 +2,14 @@
 	{
 		"name": "INLS - 513",
 		"image": "placeholder.jpg",
-		"url": "resume.pdf",
+		"url": "/projects/513",
 		"date": "Fall 2016",
 		"tags": ["archives"]
 	},
 	{
 		"name": "INLS - 556",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "/projects/556",
 		"date": "Fall 2016",
 		"tags": ["Android","PHP"]
 	},
@@ -26,6 +26,11 @@
 		"url":	"/projects/582",
 		"date": "Fall 2016",
 		"tags": [""]
+	},
+	{
+		"name":		"Journal title abbreviations",
+		"image":	"spreadsheet.jpg",
+		"url":		"https://docs.google.com/spreadsheets/d/1f9GZI4mFgw8CYnmKu5e99vOF3SqPyAoe306Qj9pMnhc/",
+		"tags":	["library"]
 	}
-
 ]
