@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim D&#39;Annecy</title>
+    <description>Tim&#39;s personal site</description>
+    <link>http://tdannecy.mehttp://tdannecy.me/</link>
+    <atom:link href="http://tdannecy.mehttp://tdannecy.me/sitemap.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 21 Sep 2016 13:30:26 -0400</pubDate>
+    <lastBuildDate>Wed, 21 Sep 2016 13:30:26 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>KanbanFlow basics</title>
+        <description>&lt;p&gt;KanbanFlow is a personal task management website that takes your 
+Kanban board to the next level! I’ve been using it for a few months 
+and I absolutely love it. It has some cool features that can really 
+improve your workflow and combines task management with time 
+management.&lt;/p&gt;
+
+&lt;p&gt;To sign up and get started, visit 
+&lt;a href=&quot;https://kanbanflow.com/&quot;&gt;https://kanbanflow.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-07-19-KanbanFlow-homepage.png&quot; alt=&quot;Screenshot of the KanbanFlow 
+homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-and-customizing-a-board&quot;&gt;Creating and customizing a board&lt;/h2&gt;
+
+&lt;p&gt;First things first. Let’s create a new board and start putting 
+tasks on it.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the top of the page, click the &lt;strong&gt;Select board&lt;/strong&gt; box and click 
+&lt;strong&gt;Create board&lt;/strong&gt;. From this page, type in a name for your board and 
+click &lt;strong&gt;Next&lt;/strong&gt;. You can change this later, so don’t stress about 
+it!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now, set your columns. Starting from the top, these columns will 
+set your left-to-right workflow on your Kanban. You might want to 
+add a “Holding” or “Waiting” column, but it really depends on your 
+workflow. If you’re not sure about what to use, check out the book 
+&lt;a href=&quot;https://www.amazon.com/Personal-Kanban-Mapping-Work-Navigating/dp/1453802266/&quot;&gt;Personal Kanban: Mapping work, navigating life by Jim 
+Benson&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click the &lt;strong&gt;Create board&lt;/strong&gt; button when you’re finished.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-07-19-KanbanFlow-create-board.png&quot; alt=&quot;Screenshot of the KanbanFlow board creation settings 
+page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the main Kanban workspace. Each column will hold your tasks 
+and you’ll be moving them from left to right as you work. One of 
+the coolest features of KanbanFlow is the ability to track the time 
+it takes for each task. At the end of a week, it can give you a 
+report that helps you understand how much time you spent on each 
+task. I use the Pomodoro method (25 minutes working, 5 minute 
+break) to organize my time and I also use the stopwatch to track 
+longer projects and meetings. If you want to learn more about 
+Pomodoros, check out &lt;a href=&quot;http://pomodorotechnique.com/&quot;&gt;the Pomoro Techique 
+website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The magic starts when you create your first task.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click the &lt;strong&gt;plus symbol&lt;/strong&gt; at the top of any column. &lt;img src=&quot;/images/2016-07-19-KanbanFlow-To-do-entry.png&quot; alt=&quot;Screenshot 
+of the KanbanFlow To-do entry popup 
+window&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;From here, you can add a name and a description. We’ll talk 
+about Labels, Color, and Responsibility later.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are two time boxes at the bottom of the &lt;strong&gt;Add task&lt;/strong&gt; 
+window. Enter the amount of time you think it will take you in the 
+&lt;strong&gt;Time estimate&lt;/strong&gt; box on the right. Leave the left box unchanged. 
+It will update itself when you use the timer. &lt;img src=&quot;/images/2016-07-19-KanbanFlow-To-do-time-entry.png&quot; alt=&quot;Screenshot of the 
+KanbanFlow To-do entry popup window and focusing on the Time 
+Estimate box&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;strong&gt;Dates&lt;/strong&gt; tab at the top of the window allows you to add due 
+dates that correspond with columns. For example, if a project is 
+due next week, I would want to mark that down on my Kanban as in 
+the target column “Done.” I would also want to begin working on it 
+at a certain point, so I’ll make a due date for “In progress.” 
+&lt;img src=&quot;/images/2016-07-19-KanbanFlow-To-do-dates.png&quot; alt=&quot;Screenshot of the KanbanFlow To-do entry popup window with the 
+Dates tab selected&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Larger tasks can be broken into smaller ones in the &lt;strong&gt;Subtasks&lt;/strong&gt; 
+tab at the top of the window. &lt;img src=&quot;/images/2016-07-19-KanbanFlow-To-do-subtasks.png&quot; alt=&quot;Screenshot of the KanbanFlow To-do 
+entry popup window with the Dates tab 
+selected&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that you’ve got a task, you can start working! You don’t have 
+to track your time, but the Timer at the bottom left of the page 
+allows you to get stats on how long you’ve been working on a 
+specific task. It’s a really cool feature that you can use to 
+troubleshoot which tasks are taking too much of your time each 
+week.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-07-19-KanbanFlow-timer.png&quot; alt=&quot;Screenshot of the KanbanFlow timer popup 
+window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose a task by clicking on the &lt;strong&gt;Select&lt;/strong&gt; button. When I’m ready, 
+I just click “Start,” begin working, and the timer counts down.&lt;/p&gt;
+
+&lt;p&gt;When you finish with a task, just click and drag the task over into 
+another column.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-07-19-KanbanFlow-task-drag.png&quot; alt=&quot;Screenshot of the KanbanFlow column 
+workflow&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;When things get rockin and you get used to the website, you can 
+really increase your productivity. I love KanbanFlow because it 
+allows me to get a zoomed-out overview of all the tasks I have to 
+do in the future while allowing me to break down bigger tasks into 
+small subtasks. I can brainstorm ideas by adding comments and I can 
+keep meeting notes and other snippets of information organized 
+directly into the task, making it much easier than having scraps of 
+paper everywhere on my desk or having to keep OneNote files in 
+order. I can set reminders for myself of upcoming tasks, I can add 
+intermediary deadlines to projects to make sure I start working by 
+a certain date and time, and I can be reminded of these deadlines 
+if I happen to miss them.  I can add tags and colors to every task 
+so that I can better sort by priority, task type, project, or any 
+other indicator that I set up.&lt;/p&gt;
+
+&lt;p&gt;KanbanFlow gives me a great summary of all of the work I’ve 
+completed in the Reports and Statistics view and breaks down how 
+long it took to complete each task. If I used Pomodoros, I can also 
+track which interruptions broke my workflow. If I have to write a 
+15-5, track time for a project, or send a progress report email, it 
+just takes a few clicks to filter out in progress tasks and only 
+display completed items within a specific date range. From this, I 
+can see if there are specific tasks that are taking too much of my 
+time or if I’ve been interrupted too often by distractions. 
+KanbanFlow also has the ability to work in teams. You can break up 
+big projects into smaller pieces which you can then assign to 
+others. You can make comments and respond to feedback from your 
+team. You can add meeting notes and the best part, in my opinion, 
+is that you keep all of that information tied to the specific task, 
+avoiding the need to keep dozens of single-line emails.&lt;/p&gt;
+
+&lt;p&gt;All of these features come standard in KanbanFlow and I depend on 
+it every day to keep me organized and on track with what’s coming 
+up on my calendar. I’ve gotten to the point where I wouldn’t work 
+without it!&lt;/p&gt;
+
+&lt;p&gt;Here’s what mine looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-07-19-KanbanFlow-mine.png&quot; alt=&quot;Screenshot of my KanbanFlow 
+board&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Jul 2016 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2016/07/19/KanbanFlow-basics.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2016/07/19/KanbanFlow-basics.html</guid>
+        
+        <category>tech,</category>
+        
+        <category>productivity</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Displaying ZawGyi and Myanmar unicode fonts on Chrome</title>
+        <description>&lt;p&gt;Chrome doesn’t display Burmese language characters correctly and 
+you won’t be able to read anything on websites written in them. 
+Both ZawGyi or unicode characters show up as blank boxes and 
+there’s no way to change the Language or Input settings in Chrome 
+to get them to show up. It’s been this way for 51 versions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-06-24-burmese-font-incorrect.png&quot; alt=&quot;Table of incorrectly rendered Burmese 
+font&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Luckily, the &lt;a href=&quot;https://chrome.google.com/webstore/detail/myanmar-font-tools/ckhifbinlmakgeidlbbmplikmcofaedf&quot;&gt;Myanmar Font Tools 
+extension&lt;/a&gt; 
+on the Chrome Web Store adds the ability to display these 
+characters. You can also check out the &lt;a href=&quot;https://github.com/kominko/mmft&quot;&gt;Github 
+repository&lt;/a&gt; if you want to compile 
+it yourself. There’s no configuring or tweaking needed and after 
+you’ve installed it, pages with Burmese characters will display 
+correctly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-06-24-burmese-font-correct.png&quot; alt=&quot;Table of correctly rendered Burmese 
+font&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Honestly, I don’t know why this functionality isn’t available by 
+default in Chrome. It’s a slight annoyance, but it should be 
+included in the list of languages.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2016/06/24/viewing-ZawGyi-and-Myanmar-unicode-fonts-on-Chrome.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2016/06/24/viewing-ZawGyi-and-Myanmar-unicode-fonts-on-Chrome.html</guid>
+        
+        <category>tech</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Found! Blurb about renewable energy in a feminist perspective</title>
+        <description>&lt;p&gt;I came across a blurb in &lt;a href=&quot;http://flnowarchive.org/wiki/Box_24_Folder_3_Document_30&quot;&gt;a newsletter from Tallahassee 
+NOW&lt;/a&gt; 
+published in February 1980 that compares nonrenewable energy to 
+patriarchy. It’s an interesting perspective and I don’t know much 
+about feminist perspectives on renewable energy. I’d love to know 
+more about this and learn what types of energy types were suppored 
+in the feminist environmental movement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-06-24-found-feminist-energy.png&quot; alt=&quot;Snapshot of a newsletter blurb talking about renewable energy in 
+a feminist 
+perspective&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“ENERGY” – A Women’s Issue&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Loretta Bussiere&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Women’s Movement has taught me that “we don’t want a piece of 
+the pie” … “cause the pie sucks.” Our nation’s entire male 
+intra-structure is based totally and completely on “oil”–a 
+resource soon to run out and possible cause the third male “cock” 
+war. Alternative Technology, also known as Appropriate Technology 
+is a feminist technology. What do men say about solar, and about 
+wind? They call them passive … they are renewable. This is the 
+opposite of what is male dominated. It is job producing, it is 
+not inflationary and best of all, it’s not controlled by men. 
+This means that women can enter these markets without threatening 
+men–this can be a future, an economic base of our country that 
+we can play a role in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;NOW needs to start following the politics of energy–both on the 
+Federal level and in every state. When Governor Graham released 
+his Energy Legislative package last week, Talahassee NOW or even 
+state NOW should have taken a long hard look at it–a woman’s 
+look.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Women are in an obvious position to say, not, “we want a piece of 
+the pie,” but, “we’re going to redefine the pie.” We are in the 
+movement for economic democracy and when we win it, and we will 
+because we have to, it’s going to be better for everybody–not 
+just women.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2016/06/24/found-feminist-energy.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2016/06/24/found-feminist-energy.html</guid>
+        
+        <category>art,</category>
+        
+        <category>politics,</category>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Found! Feminist drawings of women</title>
+        <description>&lt;p&gt;Here’s a collection of interesting drawings that I’ve come across 
+in newsletter archives.&lt;/p&gt;
+
+&lt;h4 id=&quot;sexuality-and-family-planning-perspectives-for-the-mentally-ill-and-handicapped&quot;&gt;Sexuality and family planning: Perspectives for the mentally ill and handicapped&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2016-05-31-sexuality-and-family-planning.png&quot; alt=&quot;Drawing of a mentally ill woman&quot; title=&quot;Sexuality and family planning: Perspectives for the mentally ill and handicapped&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;EntreNous No. 13, March 1989, p. 18&lt;/p&gt;
+
+&lt;h4 id=&quot;sketch-of-a-woman-by-aaron-sopher&quot;&gt;Sketch of a woman by Aaron Sopher&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2016-05-31-sketch-of-a-woman.png&quot; alt=&quot;Drawing of a woman crying&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Focus on Health review published in 1971 by the Westinghouse Learning Corporation.&lt;/p&gt;
+
+&lt;h4 id=&quot;abortions-and-the-poor&quot;&gt;Abortions and the poor&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2016-05-31-abortions-and-the-poor.png&quot; alt=&quot;Drawing of a woman holding a child.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Alan Guttmacher Institute advertisement for their publication Abortions and the Poor: Private Morality, Public Responsibility from 1977.&lt;/p&gt;
+
+&lt;h4 id=&quot;drawings-of-a-crying-pregnant-woman&quot;&gt;Drawings of a crying pregnant woman&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2016-05-31-abortion-ten-years-on-one.png&quot; alt=&quot;Drawing of a crying pregnant woman cleaning&quot; /&gt;
+&lt;img src=&quot;/images/2016-05-31-abortion-ten-years-on-two.png&quot; alt=&quot;Drawing of a crying pregnant woman with many children in bed&quot; /&gt;
+&lt;img src=&quot;/images/2016-05-31-abortion-ten-years-on-three.png&quot; alt=&quot;Drawing of a crying pregnant woman studying&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Abortion: Ten Years On,” published in 1978 by the Birth Control Trust in London.&lt;/p&gt;
+
+&lt;h4 id=&quot;take-care-of-your-ovaries-kid&quot;&gt;Take care of your ovaries, kid!&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-22-comic.jpg&quot; alt=&quot;Well, can&#39;t stop to talk now -- gotta get to my C.R. group -- then there&#39;s a N.O.W. meeting after that. Take care of your ovaries, kid!&quot; title=&quot;Well, can&#39;t stop to talk now -- gotta get to my C.R. group -- then there&#39;s a N.O.W. meeting after that. Take care of your ovaries, kid!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;University of Florida Radical Women in Gainesville Historical Exhibit. WomaNews, Volume 2, Number 9. Published October 1976.&lt;/p&gt;
+
+&lt;h4 id=&quot;pensacola-now-meeting&quot;&gt;Pensacola NOW meeting&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-05-31-pensacola-now-meeting.png&quot; alt=&quot;Sketch of a Pensacola National Organization for Women (NOW) meeting.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pensacola NOW newsletter, Volume 3, Number 8. Published November 1975.&lt;/p&gt;
+
+&lt;h4 id=&quot;manatee-now-against-rape&quot;&gt;Manatee NOW against Rape&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2016-05-31-manatee-now-against-rape.png&quot; alt=&quot;Drawing of a woman.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Manatee NOW newsletter, Volume 3, Number 2. Published February 1976.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 May 2016 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2016/05/31/found-feminist-drawings.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2016/05/31/found-feminist-drawings.html</guid>
+        
+        <category>art</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Introduction to  &quot;Observations on mental health in the Soviet Union and Eastern Europe&quot; by Henry P. David (1968)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Today, more than 50 years after the October 1917 revolution, 
+Soviet life reflects a mixture of ageless Russian culture, 
+evolving Marxist ideology and the dynamics of modern technology. 
+The most significant aspect of Soviet life is that it is planned, 
+with central direction residing in the state. There is 
+considerable pressure toward conformity, toward behaving in a 
+socially and politically acceptable fashion. There is a relative 
+de-emphasis of personal needs in favor of the primacy of the 
+collective to which the individual is expected to yield.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From birth through nursery school and all the school grades and 
+Communist Party youth organizations, the Soviet child is reared 
+to function as a member of the collective. Personality 
+development and behavior change are achieved through group 
+rewards and punishments. Individual achievements are considered 
+in terms of their value to the collective. Membership in a 
+collective provides identification, a sense of personal 
+well-being, and satisfaction of material and emotional needs. It 
+serves to socialize the Soviet child and to strengthen early 
+acceptance of the values of adult society.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The concept of the collective also dominates university life. 
+Both undergraduate and graduate students are fully aware that 
+they receive a very expensive state-subsidized education, plus 
+cost-of-living stipends. There seems to be an understanding that 
+this education is provided because the larger collective–the 
+people of the Soviets–need the student’s talents and the 
+resulting contribution he is expected to make. This is in concert 
+with the Soviet attitude that every citizen, whether male or 
+female, should contribute to society which, in turn, will meet 
+his need for social security. One Soviet colleague put it this 
+way, “I don’t have to save for a rainy day. I know I will always 
+have a job or a pension. Medical care is free and our children 
+will be educated without any cost to us”.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 25 May 2016 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2016/05/25/introduction-to-observations-on-mental-health.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2016/05/25/introduction-to-observations-on-mental-health.html</guid>
+        
+        <category>Soviet,</category>
+        
+        <category>politics</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Women&#39;s Studies Master&#39;s thesis project overview paper</title>
+        <description>&lt;p&gt;I just submitted my Thesis Project Overview paper to the &lt;a href=&quot;http://ufdc.ufl.edu&quot;&gt;UF 
+Digital Collections&lt;/a&gt;. Once it’s accepted, UFDC 
+will store my paper so that anyone can read it. Kinda scary to 
+think it’s available for everyone to see, but it’s too late to 
+change it now! If you’re interested in reading it but you can’t 
+access it, I’ve embedded the file in this post. If you have any 
+feedback or further questions, please &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#116;&amp;#100;&amp;#097;&amp;#110;&amp;#110;&amp;#101;&amp;#099;&amp;#121;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;send me an 
+email&lt;/a&gt; and I’d love to speak with you!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://onedrive.live.com/embed?cid=AE0E1D832FB8F14F&amp;amp;resid=AE0E1D832FB8F14F%21311&amp;amp;authkey=ABcY40QLVKgiD-s&amp;amp;em=2&amp;amp;wdStartOn=1&quot; width=&quot;100%&quot; height=&quot;600px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 15 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/07/15/wst-thesis.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/07/15/wst-thesis.html</guid>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Florida NOW State Conference bio</title>
+        <description>&lt;p&gt;I’m speaking about my project at this year’s Florida NOW State 
+Conference in a few weeks! I’m very excited about this opportunity 
+and I can’t wait to receive feedback on the site and the project as 
+a whole!&lt;/p&gt;
+
+&lt;p&gt;I was asked to write a short bio and I thought I’d post it here:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tim D’Annecy was raised by a former pastor and graduated from a 
+conservative Baptist high school.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;During his first semester in college, he was introduced to 
+feminism by Helen Strain and began volunteering with Planned 
+Parenthood of North Florida. It was through this experience that 
+feminism “clicked.” Tim realized he wanted to learn more and 
+went on to pursue a Master’s in Women’s Studies. Tim became 
+fascinated with the history of feminism when he came across some 
+old documents from Gainesville NOW. After finding more 
+information about the organization in the university Special 
+Collections, Tim created a collaborative website so that 
+everyone could be able to access and learn from chapter 
+newsletters and notes between activists in North Florida.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This past year, Tim has been working diligently on this archival 
+project and he recently presented his website to Gainesville NOW 
+and the community in March. In the next few years, he hopes to 
+bring his technology skills and feminist perspective and pursue a 
+Master’s in Library and Information Science. He can be contacted 
+at &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#116;&amp;#100;&amp;#097;&amp;#110;&amp;#110;&amp;#101;&amp;#099;&amp;#121;&amp;#064;&amp;#117;&amp;#102;&amp;#108;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;&amp;#116;&amp;#100;&amp;#097;&amp;#110;&amp;#110;&amp;#101;&amp;#099;&amp;#121;&amp;#064;&amp;#117;&amp;#102;&amp;#108;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&lt;/a&gt; and the Florida 
+NOW website is located at 
+&lt;a href=&quot;http://flnowarchive.org/&quot;&gt;http://FLNOWarchive.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/04/29/florida-now-state-conference-bio.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/04/29/florida-now-state-conference-bio.html</guid>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Digital humanities critical pedagogy</title>
+        <description>&lt;p&gt;I wrote this paper for a course, but I’m not too happy with it. I 
+might come back later and edit it when I have time.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://onedrive.live.com/embed?cid=AE0E1D832FB8F14F&amp;amp;resid=AE0E1D832FB8F14F%21606&amp;amp;authkey=AGIekgv9Oxlova0&amp;amp;em=2&quot; width=&quot;100%&quot; height=&quot;600px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 22 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/04/22/digital-humanities-critical-pedagogy.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/04/22/digital-humanities-critical-pedagogy.html</guid>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Digital humanities undergraduate course website</title>
+        <description>&lt;p&gt;For one of my classes, I had to write an overview of a course 
+website for my conceptual undergraduate class, “Introduction to 
+Humanities Computing.” I wanted to have a site that fulfills the 
+fundamental “ontological commitments” of Digital Humanities: 
+openness, collaboration, collegiality and connectedness, diversity, 
+and experimentation &lt;a href=&quot;https://paperpile.com/c/4O2eZN/FQSO/?locator=25-30&quot;&gt;(Spiro 
+25-30)&lt;/a&gt;. My 
+class prioritizes digital publishing and this course site is the 
+facilitator for this type of work. I will explain this concept 
+further, but, simply put, I wanted this site be primarily a space 
+where students could make their writings public and talk about 
+their progress. The site I wish to create would have an inviting 
+atmosphere for collaboration where all students feel connected to 
+each other and their work is valued. Students should be able to get 
+feedback on their work and feel comfortable giving feedback or 
+suggesting changes, no matter how long the post is.&lt;/p&gt;
+
+&lt;p&gt;To best explain these concepts for the site, I created a blank 
+Wordpress and added a blog post that I wrote for one of my classes 
+for an example. I also wrote a few generic comments and questions 
+from students and replied to them as if I was the professor. All 
+content in the site example is mine except the theme, which was 
+created by the Wordpress developers. I’ll discuss a few different 
+important parts about the site in the following sections and then 
+I’ll conclude by talking about how this type of site could benefit 
+the students in the near future. I’ve provided screenshots of the 
+site and explained the general concept of what each image 
+addresses.&lt;/p&gt;
+
+&lt;p&gt;For the class Wordpress, I decided to use the &lt;a href=&quot;http://p2theme.com/&quot;&gt;P2 
+theme&lt;/a&gt;. This theme looks different from a 
+traditional blog website in that it allows users to interact on the 
+site as they would with Facebook. Where a traditional blog layout 
+would focus on displaying only one post on each page, this layout 
+uses a Facebook Timeline-type layout that displays everything on a 
+(lengthy) single page. For me - and I’m sure this is the case 
+for other students that grew up with technology - this layout 
+is intuitive and it behaves in a way that I’m familiar with. The 
+theme prioritizes real time communication and I chose to use this 
+layout for my course website because it moves away from traditional 
+static posts. In the past, I have been in classes where the site 
+layout doesn’t do any favors in getting a conversation started 
+online. Students write an essay in Word and copy and paste it to 
+the blog, they click “Save,” and never look at it 
+again. After that, they don’t care enough about their classmates’ 
+work, so there’s no reason for them to stay on the class site. By 
+midterms, I find that these sites become a dumping ground for class 
+essays. Usually, the professor implements a rule that each student 
+must make one post and comment on three different posts to receive 
+full points - an approach and an issue that I wanted to 
+avoid.&lt;/p&gt;
+
+&lt;p&gt;The class website should be a place where students can go and think 
+out loud about their work. I want to foster a place where students 
+don’t feel like they have to post huge essays or How-To guides 
+every time they visit. A Tweet or Status Update posted on the site 
+can be thought of as a comment made in class and I plan to grade 
+students’ participation based partly on their use of the site. The 
+following sections will discuss my ideas for an ideal course 
+website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-18-screenshot1.png&quot; alt=&quot;Site screenshot 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A main part of this undergraduate class requires each student to 
+write a 500 word blog post each week about the assigned readings or 
+the tools that they used for that week. This is a crucial part of 
+the course as it makes sure every student is keeping up to date on 
+the weekly topics that we’ve discussed. It is also important for 
+the students to pause and reflect on the work they completed during 
+the week and to connect with other students about issues or 
+concerns they might have. I feel that this reflexivity in research 
+is fundamental to the completeness of one’s work and I wish to 
+foster that practice on my site. The grading for these blog post 
+assignments will be subjective, but I will prioritize completion 
+and whether they meet the deadline. I will never deduct points from 
+a post if the student was unable to complete the task they wanted 
+or if they received a different outcome. For example, if a student 
+wants to import a logo into a map or timeline (as shown in the next 
+screenshot) and find that the system has a bug, I find this process 
+of exploration and “play” can often teach more than blind luck. 
+Overall, if students are able to write a post explaining what 
+outcome they wanted, the process they used, and the result of their 
+work, they will be fulfilling the goals of the course.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-18-screenshot2.png&quot; alt=&quot;Post content example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As shown in the screenshot below, students can post quick Status 
+Updates on the site that can facilitate conversation or get 
+technical help. This tool is almost like Twitter or a Facebook 
+status that’s meant to be quick, gut feelings or reactions. They 
+don’t necessarily have to be polished work like the Blog Posts and 
+they certainly won’t be 500 words long, but these informal notes 
+are important to make students feel comfortable speaking their 
+mind. When the longer assignments come, the students will build 
+upon the positive experiences that they had previously.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-18-screenshot3.png&quot; alt=&quot;Status Update screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the Status Update is posted, other students in the class can 
+answer questions and have a conversation about whatever the topic 
+is. They can help answer their classmates’ questions and give 
+feedback for projects on subjective issues of design and usability. 
+This correspondence is important for group learning and is one of 
+the Digital Humanities ontological commitments - two aspects 
+I wish to address in this course.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-18-screenshot4.png&quot; alt=&quot;Conversation thread screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the professor or Teaching Assistant wishes to communicate with 
+the class, they have a space where they can give the students a 
+public response. For example, in this type of public format, other 
+students can read the answers given and can ask other questions for 
+clarification. If students want to send a situation-specific 
+question, they can always send the instructor a direct email or 
+message through the course website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-04-18-screenshot5.png&quot; alt=&quot;Conversation thread screenshot 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the advantages that this type of site gives is the ability 
+to collectively organize the students’ thoughts and to create a 
+working, in-depth site for others to use. It would be ideal if the 
+site could be a reference for other researchers who are working on 
+similar projects with these tools. On every entry, students can tag 
+their post so that it can be organized by category. Whether the tag 
+is “visibility” or another conceptual issue, or a specific tool, 
+visitors to the site can navigate and quickly find what they need. 
+For instance, if a student writes about Omeka at the beginning of 
+the semester and it gets buried by other posts, you can click on 
+the entry for Omeka on the sidebar and quickly find the post. 
+(Refer back to the first screenshot of the site.) If another 
+student writes a response to an article and how it relates to their 
+research, the post could be tagged according to the topic discussed 
+or the journal from which it came. The syllabus explains that it is 
+important to explain the students’ research process, not simply 
+give an overview or summary of a reading, so the student must 
+emphasize how that reading is applicable.&lt;/p&gt;
+
+&lt;p&gt;I would like to keep the site private during the semester so that 
+students can feel comfortable asking questions and thinking out 
+loud. Whether they post something “stupid” or their ideas are good 
+enough to be stolen, I wouldn’t want their posts to be made public 
+as they’re hesitantly posting their ideas and processes only to be 
+exploited by someone on the internet. When the semester is 
+finished, I would ask for permission to make these posts public as 
+I feel it can benefit other people working on digital projects. I 
+would redact or delete any comment or post, if asked, and I can 
+always provide the students an exported version of their posts. As 
+everything that students post will be available on the internet 
+after making the site public, I would need to make sure that they 
+had a basic understanding about copyright and Creative Commons 
+licensing that they can employ to protect their intellectual 
+property. This discussion about ownership could be started as an 
+in-class discussion supplemented with videos and other how-to 
+manuals available on the internet.&lt;/p&gt;
+
+&lt;p&gt;Copyright aside, by making the site public, blog posts can be 
+considered a form of digital publishing. As everything in academic 
+work seems to be moving online, students can build their CV with 
+these blog posts and have a tangible source to point to when 
+listing their proficiencies. If a student writes a guide about a 
+new tool that they were able to use for their research, a quick 
+Google Search could associate Student with Marketable Skill. For 
+example, if a student writes a quick guide on how to setup OHMS, a 
+tool to work interactively with oral history recordings, a stranger 
+could acknowledge their technical prowess about that newly created 
+tool. The student’s CV would reflect their proficiency and list 
+their oral history project with a link to the class site. These 
+connections could spur collaboration, career advancement, and 
+goodwill with other researchers and users of new technologies. 
+After the semester is completed, the course website can serve as 
+more than an arena for communication and collaboration, it can be 
+an example of a marketable digital portfolio where students can 
+showcase their abilities.&lt;/p&gt;
+
+&lt;p&gt;This desire to make posts public is dual-purpose: (1) I feel it is 
+an ethical responsibility as a professor to foster critical 
+thinking about future career and academic plans. (2) I also feel it 
+is important to demonstrate to students the applicability of the 
+work done within the course to the “real world” they will be 
+working in after graduation. Although it hasn’t been the typical 
+format for most academic classes (particularly in the humanities) 
+up to this point, skills-based training is and will be crucial for 
+the coming changes in the fields. When learning, students should 
+understand the conceptual and the technical aspect of these new 
+tools and often these two aspects are interchangeable. In a way, 
+these concepts can be thought of as two sides of one coin. One 
+could argue that disciplinary methodology is important and students 
+should be taught Best Practices as a base and technology will come 
+later. Others, particularly in STEM fields, may feel that the 
+technology is the crucial lesson that should be taught - the 
+rules will be learned.&lt;/p&gt;
+
+&lt;p&gt;I see that the best approach to this type of work views both 
+technology and methodology as interconnected and interdependent. If 
+a student has experience and understands the methodological 
+importance of a timeline or mapping tool, technical training could 
+be helpful. If one is resistant to put the time into detailed and 
+technical metadata, a project in which specificity is required 
+could change their perception on the issue (as it did for me). 
+Digital Humanities should not follow division of traditional 
+disciplinary lines: STEM is technology, Humanities and Social 
+Sciences are methods. Courses that teach Humanities Computing 
+should be critical of this split and work blend both disciplines 
+into a workable and reflexive pedagogy. Although theoretical, my 
+course as represented through this site is an extension of this 
+type of teaching and can be considered an example of how to best 
+introduce these new research practices to students.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/04/18/undergraduate.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/04/18/undergraduate.html</guid>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Found! &quot;Be nice&quot;</title>
+        <description>&lt;p&gt;I came across an interesting quote &lt;a href=&quot;http://flnowarchive.org/mediawiki/index.php/Box_28_Folder_10_Document_20&quot;&gt;in a newsletter from 
+2000&lt;/a&gt; 
+by a member of the University of Florida campus NOW chapter during 
+a reelection campaign:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Feminism doesn’t mean “be nice,” I would like more open debate. 
+All these appeals to sisterhood-just because you don’t agree with 
+somebody doesn’t mean you don’t like the person. It’s a thing 
+that we need to work out. “Be nice” - I don’t like that idea. We 
+want to be a united front but we also don’t want to crush each 
+other with everyone trying to be nice to everybody.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0400</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/03/26/found-be-nice.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/03/26/found-be-nice.html</guid>
+        
+        <category>politics,</category>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Found! Poem from a Pensacola NOW</title>
+        <description>&lt;p&gt;I found an interesting poem from a woman who stepped down from her 
+position as chapter president in 1973. Margaret Fifield writes to 
+the members of Pensacola NOW &lt;a href=&quot;http://flnowarchive.org/mediawiki/index.php/Box_23_Folder_1_Document_2&quot;&gt;in a 
+letter&lt;/a&gt; 
+that makes me wonder what else went on in the chapter. What led her 
+to write this poem?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are like sheep 
+They’ll follow anybody 
+Just so they don’t have to lead.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are lambs&lt;br /&gt;
+Being led to the slaughter&lt;br /&gt;
+Innocently.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are like mules&lt;br /&gt;
+Plodding along through the mire&lt;br /&gt;
+Hoping everything will be O.K., tomorrow.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are like rabbits&lt;br /&gt;
+So busy hopping about that they&lt;br /&gt;
+Can not (or will not) admit what’s happening.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are like parrots&lt;br /&gt;
+Talking a lot&lt;br /&gt;
+But saying nothing that is new.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are like dogs&lt;br /&gt;
+With a bone of contention&lt;br /&gt;
+Until something more valuable comes along.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some feminists are like snakes&lt;br /&gt;
+Slithering about very carefully&lt;br /&gt;
+Always in control of themselves, and any situation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But the worst feminists of all&lt;br /&gt;
+Are like poisonous snakes, destroying anyone around&lt;br /&gt;
+Who doesn’t watch where she’s going.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Too bad some feminists aren’t more human&lt;br /&gt;
+Then they could read the signs&lt;br /&gt;
+That say: “Beware of Snakes:”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/03/01/found-pensacola-NOW-poem.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/03/01/found-pensacola-NOW-poem.html</guid>
+        
+        <category>art,</category>
+        
+        <category>politics,</category>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Project proposal</title>
+        <description>&lt;p&gt;I wrote this paper as a quick update to my thesis committee. At 
+this point, I feel overwhelmed with the amount of work that I have 
+to do to and I need to get more organized if I’m going to finish 
+strong. Not only do I have to manage my time, I may have to reframe 
+the scope of the project to something a bit more reasonable. If I 
+had five years, I’m sure I could do the whole collection but I 
+won’t finish working through the entire collection in the time I 
+have left in this master’s.&lt;/p&gt;
+
+&lt;p&gt;In any case, here’s an update of my work.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;500px&quot; src=&quot;https://docs.google.com/document/d/159X37TVOIAG4Hk5ZEhCPGTJeOZJfYVDMOCdgoQI9PQ4/pub?embedded=true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 19 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/02/19/project-proposal.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/02/19/project-proposal.html</guid>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Found! Uterus comic</title>
+        <description>&lt;p&gt;I came across a funny comic in &lt;a href=&quot;http://flnowarchive.org/mediawiki/index.php/Box_24_Folder_3_Document_30&quot;&gt;one of the 
+newsletters&lt;/a&gt; 
+from Tallahassee NOW dated February 1980. Thought I’d share it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-01-01-found-uterus-comic.png&quot; alt=&quot;uterus comic&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Transcription:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Left: So the doctor says to me, “Why not have your uterus 
+removed; You’re not using it, and it’ll save you a lot of trouble 
+in the long run.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Right: If a man had a uterus, it would be like a landmark 
+building, you’d need a court order to remove it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Reprinted from “I’m in Training to be Tall and Blonde,” by Nicole 
+Hollander.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/01/01/found-uterus-comic.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/01/01/found-uterus-comic.html</guid>
+        
+        <category>art,</category>
+        
+        <category>politics,</category>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Found! Feminist organizational chart</title>
+        <description>&lt;p&gt;While working through a folder on the Florida NOW archive, I found 
+a sketch of a few organizational charts from several different 
+organizations in &lt;a href=&quot;http://flnowarchive.org/mediawiki/index.php/Box_24_Folder_3_Document_14&quot;&gt;one of the 
+newsletters&lt;/a&gt; 
+dated 1978. I’m not sure if this is satirical or if “Arab” is 
+supposed to be a joke, but I think it’s interesting to see how 
+these feminist organizers saw the leadership structure of the 
+women’s liberation movement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-01-01-found-feminist-organizational-chart.png&quot; alt=&quot;Feminist organizational chart scanned from a newsletter dated 1978&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://tdannecy.mehttp://tdannecy.me/2015/01/01/found-organizational-chart.html</link>
+        <guid isPermaLink="true">http://tdannecy.mehttp://tdannecy.me/2015/01/01/found-organizational-chart.html</guid>
+        
+        <category>politics,</category>
+        
+        <category>school</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

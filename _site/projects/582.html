@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="/static/img/favicon.ico" />
+        <title>Class notes - INLS 582 (Systems analysis) - Tim D'Annecy</title>
+        <meta name="author" content="Tim D'Annecy" />
+        <meta name="description" content="Class notes - INLS 582 (Systems analysis)" />
+        <meta name="keywords" content="Class notes - INLS 582 (Systems analysis), Tim D'Annecy, " />
+
+        <meta content="0" property="fb:app_id">
+        <meta content="Tim D'Annecy" property="og:site_name">
+        
+          <meta content="Class notes - INLS 582 (Systems analysis)" property="og:title">
+        
+        
+          <meta content="article" property="og:type">
+        
+        
+          <meta content="Tim's personal site" property="og:description">
+        
+        
+          <meta content="http://tdannecy.me/projects/582.html" property="og:url">
+        
+        
+        
+          <meta content="http://tdannecy.me/static/img/logo-high-resolution.png" property="og:image">
+        
+        
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@tdannecy">
+        <meta name="twitter:creator" content="@tdannecy">
+        
+          <meta name="twitter:title" content="Class notes - INLS 582 (Systems analysis)">
+        
+        
+          <meta name="twitter:url" content="http://tdannecy.me/projects/582.html">
+        
+        
+          <meta name="twitter:description" content="Tim's personal site">
+        
+        
+
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+      
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+        <!-- FontAwesome icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/74dfc6cf47.css">
+
+        <!-- Core BootStrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- Material Design CSS -->
+        <link rel="stylesheet" href="http://tdannecy.me/static/css/bootstrap-material-design.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="http://tdannecy.me/static/css/syntax.css">
+
+        <!-- Custom CSS -->        
+        <link rel="stylesheet" href="http://tdannecy.me/static/css/thickbox.css">
+        <link rel="stylesheet" href="http://tdannecy.me/static/css/main.css">
+        <link rel="stylesheet" href="http://tdannecy.me/static/css/projects.css">
+
+        <script type="text/javascript">
+          //loadingImage is relative to project dir
+          var tb_pathToImage = "http://tdannecy.me/static/img/loadingAnimation.gif";
+        </script>
+
+  </head>
+
+  <body class="home overflow-hidden">
+    <div class="header-panel shadow-z-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="row-picture">
+              <img id="about" class="logo-img" src="/images/dannecyt.jpg" height="75px" width="75px">
+            </div>
+            <div class="row-details">
+              <h4 class="list-group-item-heading">Tim D'Annecy</h4>
+              <p class="list-group-item-text">Graduate student in North Carolina</p>
+              <div class="social-icons">
+	
+        <a class="icon" target="_blank" href="https://www.facebook.com/tdannecy"><i class="fa fa-facebook"></i></a>
+    
+        <a class="icon" target="_blank" href="https://twitter.com/tdannecy"><i class="fa fa-twitter"></i></a>
+    
+        <a class="icon" target="_blank" href="https://www.linkedin.com/in/tdannecy"><i class="fa fa-linkedin"></i></a>
+    
+</div>
+
+            </div>
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-2x fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-8 col-xs-12">
+            <h2 class="blog-title-pro">Class notes - INLS 582 (Systems analysis)</h2>
+            <p class="info">
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container main outer">
+      <div class="row">
+        <div class="col-md-3 col-xs-12">
+              <nav class="menu">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="list-separator nav navbar-nav well well-primary page">
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  582.html"><a href="http://tdannecy.me/" target="_self"><i class="fa fa-home"></i> Blog</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  582.html"><a href="http://tdannecy.me/about" target="_self"><i class="fa fa-comments"></i> About</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  582.html"><a href="http://tdannecy.me/projects" target="_self"><i class="fa fa-desktop"></i> Projects</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  582.html"><a href="http://tdannecy.me/static/resume.pdf" target="_self"><i class="fa fa-graduation-cap"></i> Resume</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  582.html"><a href="http://tdannecy.me/feed.xml" target="_blank"><i class="fa fa-feed"></i> XML Feed</a></li>
+
+</ul>
+
+    </div>
+    </nav>
+
+        </div>
+        <div class="col-md-9 col-xs-12 full">
+          <div class="well">
+    
+    <div>
+    	<h1 id="table-of-contents">Table of contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents</a></li>
+  <li><a href="#september-20-2016" id="markdown-toc-september-20-2016">September 20, 2016</a>    <ul>
+      <li><a href="#models" id="markdown-toc-models">Models</a></li>
+      <li><a href="#scenario-based-design" id="markdown-toc-scenario-based-design">Scenario based design</a>        <ul>
+          <li><a href="#scenario-example" id="markdown-toc-scenario-example">Scenario example</a></li>
+        </ul>
+      </li>
+      <li><a href="#personas" id="markdown-toc-personas">Personas</a></li>
+      <li><a href="#group-work" id="markdown-toc-group-work">Group work</a></li>
+    </ul>
+  </li>
+  <li><a href="#september-15-2016" id="markdown-toc-september-15-2016">September 15, 2016</a>    <ul>
+      <li><a href="#project-management" id="markdown-toc-project-management">Project management</a>        <ul>
+          <li><a href="#project-management-activities" id="markdown-toc-project-management-activities">Project management activities</a></li>
+          <li><a href="#what-needs-to-be-managed" id="markdown-toc-what-needs-to-be-managed">What needs to be managed?</a></li>
+          <li><a href="#cost-categories" id="markdown-toc-cost-categories">Cost categories</a></li>
+        </ul>
+      </li>
+      <li><a href="#group-work---project-planning" id="markdown-toc-group-work---project-planning">Group work - Project planning</a></li>
+    </ul>
+  </li>
+  <li><a href="#september-13-2016" id="markdown-toc-september-13-2016">September 13, 2016</a>    <ul>
+      <li><a href="#contextual-interview-overview" id="markdown-toc-contextual-interview-overview">Contextual interview overview</a></li>
+      <li><a href="#principles-of-contextual-interviews" id="markdown-toc-principles-of-contextual-interviews">Principles of contextual interviews</a>        <ul>
+          <li><a href="#partnership" id="markdown-toc-partnership">Partnership</a></li>
+          <li><a href="#interpretation" id="markdown-toc-interpretation">Interpretation</a></li>
+          <li><a href="#focus-your-attention-on-what-youre-seeing" id="markdown-toc-focus-your-attention-on-what-youre-seeing">Focus your attention on what you’re seeing</a></li>
+          <li><a href="#be-aware" id="markdown-toc-be-aware">Be aware!</a></li>
+        </ul>
+      </li>
+      <li><a href="#interview-preparation" id="markdown-toc-interview-preparation">Interview preparation</a></li>
+      <li><a href="#interview-structure" id="markdown-toc-interview-structure">Interview structure</a></li>
+      <li><a href="#asking-questions" id="markdown-toc-asking-questions">Asking questions</a></li>
+      <li><a href="#observation" id="markdown-toc-observation">Observation</a></li>
+      <li><a href="#after-the-interview" id="markdown-toc-after-the-interview">After the interview</a></li>
+      <li><a href="#other-information-gathering-techniques" id="markdown-toc-other-information-gathering-techniques">Other information gathering techniques</a></li>
+    </ul>
+  </li>
+  <li><a href="#september-8-2016" id="markdown-toc-september-8-2016">September 8, 2016</a>    <ul>
+      <li><a href="#contextual-design" id="markdown-toc-contextual-design">Contextual design</a>        <ul>
+          <li><a href="#who-is-the-expert" id="markdown-toc-who-is-the-expert">Who is the expert?</a></li>
+          <li><a href="#situational-differences" id="markdown-toc-situational-differences">Situational differences</a></li>
+        </ul>
+      </li>
+      <li><a href="#user-centered-design" id="markdown-toc-user-centered-design">User centered design</a>        <ul>
+          <li><a href="#interviews" id="markdown-toc-interviews">Interviews</a></li>
+        </ul>
+      </li>
+      <li><a href="#clutter" id="markdown-toc-clutter">Clutter</a>        <ul>
+          <li><a href="#group-discussion" id="markdown-toc-group-discussion">Group discussion</a></li>
+        </ul>
+      </li>
+      <li><a href="#contextual-interview-exercise" id="markdown-toc-contextual-interview-exercise">Contextual interview exercise</a></li>
+    </ul>
+  </li>
+  <li><a href="#september-1-2016" id="markdown-toc-september-1-2016">September 1, 2016</a>    <ul>
+      <li><a href="#communication-functions" id="markdown-toc-communication-functions">Communication functions</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="september-20-2016">September 20, 2016</h1>
+<p>The professor started the class by discussing models and modeling techniques. 
+Importantly, models can include a representation for <strong>breakdowns</strong>, defined as 
+“errors or failures, something that doesn’t work well as it should/could, or an 
+annoyance that creates extra work. In systems analysis, our goal is to identify and 
+eliminate/minimize these breakdown events.</p>
+
+<h2 id="models">Models</h2>
+<p>Alluding back to our models overview from previous classes, the professor noted that 
+there are three high-level categories or types of models:</p>
+
+<ol>
+  <li>
+    <p><strong>Big picture models</strong> - Brainstorming, visioning, imagining</p>
+  </li>
+  <li>
+    <p><strong>Work models</strong> - Processes, procedures, workflows, decisions</p>
+  </li>
+  <li>
+    <p><strong>Content models</strong> - Representations, organizations, arrangements, presentations</p>
+  </li>
+</ol>
+
+<h2 id="scenario-based-design">Scenario based design</h2>
+
+<blockquote>
+  <p>Scenario-based design tries to manage the complexity of design problem solving by 
+concretization. A scenario is a concrete story about use. (Carroll, 2000 p. 22)</p>
+</blockquote>
+
+<p>The professor noted that scenarios give you the opportunity to take a large, 
+complicated question (like staff processes in a hospital) and narrow it down to a 
+specific thing. In itself, it’s not a complete way to understand a situation, but it 
+can give you a good overview about what’s happening at a specific point.</p>
+
+<p>A scenario was compared to a <strong>play script</strong>. It’s an intersecting, messy story that 
+models real life. There are transitions, different perspectives, and different issues 
+that arise in the overall narrative.</p>
+
+<p>Scenarios also allow us to explore the consequences of design decisions. We can see 
+job responsibilities, procedures, resources, timing, and understand the indiviual 
+parts of the system and the system as a whole.</p>
+
+<p>The professor noted that within the scenario discussion, we need to make sure we don’t 
+forget to consider <strong>transitions</strong>, where most design failures happen (between actors, 
+between tasks).</p>
+
+<p>Important components to consider in scenarios:</p>
+
+<ul>
+  <li>
+    <p><strong>Settings</strong> or environments</p>
+  </li>
+  <li>
+    <p><strong>Agents</strong> or actors</p>
+
+    <ul>
+      <li>
+        <p>May include major <em>systems as actors</em>, if desired</p>
+      </li>
+      <li>
+        <p>Actors often <em>instances of a persona</em></p>
+      </li>
+      <li>
+        <p>Generally a <em>star actor</em> that is the primary focus</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Goals</strong> and objectives</p>
+
+    <ul>
+      <li>“What is the actor trying to accomplish?”</li>
+    </ul>
+  </li>
+  <li>
+    <p>Sequence of <strong>actions</strong> or events</p>
+  </li>
+</ul>
+
+<h3 id="scenario-example">Scenario example</h3>
+
+<p>In a physics lab, there are several parts that can be modeled easily.</p>
+
+<ul>
+  <li>
+    <p>Settings</p>
+
+    <ul>
+      <li>
+        <p>Physics lab equipment room</p>
+      </li>
+      <li>
+        <p>Offices</p>
+      </li>
+      <li>
+        <p>Coffee shop</p>
+      </li>
+      <li>
+        <p>Classrooms</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Actors</p>
+
+    <ul>
+      <li>
+        <p>Instructor</p>
+      </li>
+      <li>
+        <p>Lab manager</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Goals</p>
+
+    <ul>
+      <li>
+        <p>Item checkout for maintenance</p>
+      </li>
+      <li>
+        <p>Item return</p>
+      </li>
+      <li>
+        <p>Reserve items</p>
+      </li>
+      <li>
+        <p>Audit/check usage information</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Sequences of actions</p>
+  </li>
+</ul>
+
+<h2 id="personas">Personas</h2>
+
+<blockquote>
+  <p>Personas can elp <strong>bring users alive</strong> (Holtzblatt, p. 181)</p>
+</blockquote>
+
+<blockquote>
+  <p>A persona is a <strong>one-page textual description of a typical user</strong> … an amalgam of 
+elements drawn from several users who share common job roles, demographics, and user 
+need characteristics. (Holtzblatt, p. 182)</p>
+</blockquote>
+
+<p>It was noted that in this definition, there is a prototypical construct of “students” 
+or “professors” that we can list common principles that serve as <strong>classes of users</strong>. 
+Again, this is a level of abstraction that, like scenarios, can help us understand 
+large problems better. Personas can serve as agents or actoes in one or more scenarios, 
+linking the two. In the physics lab example, the lab manager and the instructor serve 
+as the personas that we can use as stand-ins for real people later on.</p>
+
+<p>When creating personas, it’s a good idea to use a small number of major players or 
+actors that represent the <strong>most common or important users of or participants in your 
+system</strong>. It’s also good to consider <strong>diversity</strong> to cover all major users that may be 
+related to the problem or solution.</p>
+
+<p>The process of building/constructing personas is relatively straightforward.</p>
+
+<ol>
+  <li>
+    <p><strong>Draw on data</strong> from interviews and observations</p>
+
+    <ul>
+      <li>Group the general types of users with similar profiles</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Identify</strong> each persona’s goals, roles, and tasks</p>
+  </li>
+  <li>
+    <p><strong>Write</strong> a persona defitnition</p>
+
+    <ul>
+      <li>Name the persona so that it makes sense in your model and has a real-world 
+corrolary</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Use</strong> the persona in analysis and design</p>
+  </li>
+</ol>
+
+<h2 id="group-work">Group work</h2>
+
+<p>The professor then broke the class up into groups to discuss an example situation of a 
+walk-in computer help desk at a university Student Union.</p>
+
+<h1 id="september-15-2016">September 15, 2016</h1>
+<p>The professor started the class by again discussing the Project 
+Description project due next class on Tuesday. Additionally, 
+there will be a calendar of recommended progress. See the slides 
+for this day for more information.</p>
+
+<h2 id="project-management">Project management</h2>
+
+<p>Previous to this class, we talked about different aspects of 
+project. In today’s class, we’ll talk about the challenges with 
+predicting and planning projects.</p>
+
+<p>The professor noted that when it comes to projects, there are 
+several maxims:</p>
+
+<blockquote>
+  <p>Planning = prediction</p>
+</blockquote>
+
+<blockquote>
+  <p>Time = Money</p>
+</blockquote>
+
+<blockquote>
+  <p>Time = Tasks + People + Resources</p>
+</blockquote>
+
+<h3 id="project-management-activities">Project management activities</h3>
+
+<ul>
+  <li>
+    <p>Planning</p>
+
+    <ul>
+      <li>
+        <p>Project goals, process, resources, benchmarks, 
+milestones</p>
+      </li>
+      <li>
+        <p>Proactive step</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Monitoring</p>
+
+    <ul>
+      <li>
+        <p>Situational awareness for project team, stakeholders</p>
+      </li>
+      <li>
+        <p>Progress, delays, barriers, risks</p>
+      </li>
+      <li>
+        <p>What is working, what isn’t working</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Adjusting</p>
+
+    <ul>
+      <li>
+        <p>Noticing changes</p>
+      </li>
+      <li>
+        <p>Changing plans, resources, etc. to accommodate change</p>
+      </li>
+      <li>
+        <p>Proactive and reactive</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="what-needs-to-be-managed">What needs to be managed?</h3>
+
+<p>The <strong>scope and goals</strong> of the project need to be set by setting 
+reasonable expectations, avoiding project creep, and matching 
+resources to scope.</p>
+
+<p>The <strong>tasks</strong> also need to be defined. YOu need to figure out 
+what needs to be done, decomposing larger tasks into smaller 
+pieces and specific assignments, and by identifying task 
+dependencies. These can be <strong>sequences</strong> (Task 1 must be 
+completed before Task 2 can start) and <strong>parallels</strong> (Task 1 and 
+2 are independent and can be done simultaneously.</p>
+
+<p>THe <strong>schedule</strong> needs to be clear. The task duration and 
+completion date need to be included with the milestones and 
+deadlines. This also takes into account slack time and crunch 
+time (critical path).</p>
+
+<p>The <strong>people</strong> need to also be managed where you take into 
+account needed skills, task assignments, working within other 
+commitments, and preventing over or under utilization.</p>
+
+<p><strong>Other resources</strong> need to be managed, including rooms, 
+equipment, training facilities, etc.</p>
+
+<p><strong>Risks</strong> also ntted to be managed and monitored. It’s crucial to 
+identify these risks and communicate them with your stakeholders. 
+Additionally, you need to identify champions.</p>
+
+<p><strong>Results</strong> need to be managed, namely establishing and 
+clarifying deliverables. It’s important to establish and 
+effectively meet the criteria set down in the initial planning 
+phases. It’s also important to demonstrating a commitment to 
+success.</p>
+
+<p><strong>Budgets</strong> need to be managed, including the direct and indirect 
+costs, fixed costs (ont-time costs, e.g. equipment purchasing or 
+software licensing), and variable costs (vary in proportion to 
+time or activity, e.g. cloud computing usage fees).</p>
+
+<h3 id="cost-categories">Cost categories</h3>
+
+<p>These categories are applicable to both project and operation 
+budgets, including equipment, supplies, personnel, travel, system 
+back up, etc. After we get these estimates, there needs to be a 
+project justification for the question <strong>is it worth the 
+expense?</strong> This is usually a monetary question, but also has 
+qualities or intangibles that may be relevant (good will, 
+reputation, staff retention) and takes into account actionable 
+metrics (ROI, cost-benefit analysis and ratio of benefits to 
+costs, and “bang for the buck”). Additionally, the question <strong>is 
+it worth the effort?</strong> is an important question. If it does 
+positvely affect the organization, there may be underlying issues 
+that aren’t taken into account (opportunity cost, offset work, 
+etc.)</p>
+
+<h2 id="group-work---project-planning">Group work - Project planning</h2>
+<p>The professor then broke the class up into groups to discuss 
+speciifc tasks, resouces, people and create a schedule with 
+milestones and deliverables for the project.</p>
+
+<h1 id="september-13-2016">September 13, 2016</h1>
+<p>The professor started the class by reminding that there is an 
+assignment due in one week on September 20th. Primarily, this seems 
+like a labor intensive group work project.</p>
+
+<h2 id="contextual-interview-overview">Contextual interview overview</h2>
+<p>The professor then moved to discuss contextual interviews, which 
+were compared to the interviews that were taken last class where we 
+asked our partners about the details of their commute. It was noted 
+that in contextual interviews as framed by this class session, the 
+question process is a bit more difficult.</p>
+
+<p>For a basic framework, there are three parties: the interview, the 
+interviewer, and the task at hand.</p>
+
+<blockquote>
+  <p>Contextual Inquiry seeks to provide rich detail about customers 
+by taking team members into the field. Once there, apprenticeship 
+suggests an attitude of inquiry and learning. (B&amp;H, p. 46)</p>
+</blockquote>
+
+<p>The professor noted that to have a successful contextual 
+interview session, we have to see the user as the expert and the 
+analyst or designers are the apprentices. “We’re here to just 
+observe and learn how you do things.”</p>
+
+<p>In some cases, however, it isn’t possible to observe directly. 
+Sometimes safety, confidentiality, or physical space are limiters 
+that make it difficult to get a first-hand experience. Examples 
+include surgery, ambulance or rescue situations, battle, 
+lawyer/client privilege interviews, etc. In situations like these, 
+the best substitute includes interviewing immediately after the 
+event when its fresh in someone’s mind, video tape the event with 
+the user (perhaps with faces/words obscured), or increase the 
+number of interviews. In these cases, you’re seeking <strong>saturation</strong> 
+or the point where you’re not learning anything new. The professor 
+also noted that in situations like this, an intimate relationship 
+with a user can help you in the future to have greater access for 
+other projects.</p>
+
+<h2 id="principles-of-contextual-interviews">Principles of contextual interviews</h2>
+<p>### Context of workplace
+You have to be there to see it and understand it.</p>
+
+<ul>
+  <li>
+    <p>An immersing first-hand experience with real examples give you a 
+better understanding of the situation and can contextualize what 
+the user is talking about later on.</p>
+  </li>
+  <li>
+    <p>Artifacts, layout, and physical objects give you a better idea of 
+how the work takes place and what is critical to the user’s work.</p>
+  </li>
+  <li>
+    <p>Pace of work, interruptions, and time pressures can be more 
+directly observed and re-weighted depending on the situation.</p>
+  </li>
+  <li>
+    <p>Helps you grasp intangible or unspoken factors like work culture, 
+personal difficulties, and more “sticky” things that need to be 
+experienced to understand.</p>
+  </li>
+</ul>
+
+<h3 id="partnership">Partnership</h3>
+<p>You and the user have to each have your own expertise and learn 
+from each other.</p>
+
+<ul>
+  <li>
+    <p><strong>You learn about</strong> the job, tasks, problems and breakdowns, and 
+the culture and values.</p>
+  </li>
+  <li>
+    <p><strong>The user learns about</strong> what you need to learn and how to 
+contribute to the project in addition to what the possibilities for 
+a new system can help improve their job.</p>
+  </li>
+  <li>
+    <p><strong>You each view the job differently</strong> - Your goal is to 
+understand the current system and design a better system. The 
+user’s goal is to get the work done.</p>
+  </li>
+  <li>
+    <p><strong>Collaboration</strong> helps you both to learn and to improve 
+workflows.</p>
+  </li>
+</ul>
+
+<h3 id="interpretation">Interpretation</h3>
+<p>You need to interpret what you have seen</p>
+
+<ul>
+  <li>
+    <p>Take individual facts, observations, and try to find patterns and 
+relationships.</p>
+  </li>
+  <li>
+    <p>Ask questions. Suppose in the middle of a task, the user has to 
+consult a colleague. Why? Clarifying or leading questions can be 
+helpful in this situation and include “to check on how to do it? to 
+ask permission? feedback? needed information? make plans for 
+lunch?” and “why did this happen at this time in the task? where 
+does this information come from? are there other needs?</p>
+  </li>
+</ul>
+
+<h3 id="focus-your-attention-on-what-youre-seeing">Focus your attention on what you’re seeing</h3>
+<p>Keep you and the user focused on the task at hand, but if you focus 
+too much, you may not be open to really seeing and learning.</p>
+
+<blockquote>
+  <p>Don’t eliminate the possibility of learning something that is not 
+directly related, but is important to understanding the problem or 
+designing the news system.</p>
+</blockquote>
+
+<h3 id="be-aware">Be aware!</h3>
+<ul>
+  <li>
+    <p>Be comfortable with admitting ignorance and asking questions</p>
+  </li>
+  <li>
+    <p>Be aware of and beware of your assumptions</p>
+  </li>
+  <li>
+    <p>Surprise is a good thing! It can lead to more research directions 
+or opportunities that can lead to better situations.</p>
+  </li>
+</ul>
+
+<h2 id="interview-preparation">Interview preparation</h2>
+<p>The professor noted that there are many questions and prep work 
+that needs to go into the situation before interviewing people.</p>
+
+<p>These include:</p>
+
+<ul>
+  <li>
+    <p><strong>What</strong> do you need to learn? Setting goals helps, but surprises 
+are inevitable.</p>
+  </li>
+  <li>
+    <p><strong>Why</strong> is it important? Will it help you understand the problem, 
+context, user needs? Will it help you design the new system?</p>
+  </li>
+  <li>
+    <p><strong>Who</strong> can give you the information you need? It’s advised to 
+start with a client contact, consider work roles and tasks, consult 
+the organization’s hierarchy chart, and then schedule interviews 
+with accessibility or ability to meet in mind.</p>
+  </li>
+  <li>
+    <p><strong>Snowball</strong> effect. Use one interview to chain to another person 
+to get information from another colleague that would normally just 
+ignore your email.</p>
+  </li>
+</ul>
+
+<p>Additionally, the question comes up, “<strong>How many</strong> people do you 
+need to talk to? It really depends on your situation. If you 
+observe similarities, you’ve reached saturation, a good place to 
+be. Also you have to be mindful of additional perspectives or 
+stakeholders that might need to be considered including the time 
+that you or others have to spend on the interviews. The goal isn’t 
+to get interviews, but to get information. If they run out of time 
+or information for various reasons, it’s okay to stop.</p>
+
+<p><strong>Preparing in advance</strong> can help you better understand the problem 
+definition, set clear interview goals, examine possible artifacts 
+or documents to help add context to the current situation, and find 
+our history or success of past projects, if possible.</p>
+
+<p><strong>Planning</strong> will help you capture what you learn in the 
+interviews. Consider having two interviewers, one to ask questions, 
+one to take notes, and both to observe. Also consider what types of 
+notes or diagrams you will have in the interview session. Some can 
+be distracting, while others are critical to the interivew. 
+Consider what tyes of sound or video recording can take place. This 
+also comes with acquiring and explaining consent between the 
+interviewees or clients. Along those same lines, photos that can be 
+used later on can be of great benefit to your study, but need to 
+have permission.</p>
+
+<h2 id="interview-structure">Interview structure</h2>
+
+<ol>
+  <li>
+    <p>The conventional interview</p>
+
+    <ul>
+      <li>
+        <p>Get acquainted</p>
+      </li>
+      <li>
+        <p>Explain your purpose for your being there</p>
+      </li>
+      <li>
+        <p>Allow interviewee to express ideas or opinions at the 
+start</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>The transition</p>
+
+    <ul>
+      <li>Explain how the contextual interview works</li>
+    </ul>
+  </li>
+  <li>
+    <p>The contextual interview itself</p>
+  </li>
+  <li>
+    <p>The wrap-up</p>
+
+    <ul>
+      <li>
+        <p>Summarize what you have learned, let the interviewee 
+comment or correct your impressions</p>
+      </li>
+      <li>
+        <p>Describe what happens in the next steps of the project 
+(follow up, additional interviews and interviewees, snowball)</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="asking-questions">Asking questions</h2>
+<p>There are several different types of questions that you can ask in 
+the contextual interview session.</p>
+
+<ul>
+  <li>Task related questions
+    <ul>
+      <li>
+        <p>Describe the steps in the task</p>
+      </li>
+      <li>
+        <p>Show documents or artifacts used in the task</p>
+      </li>
+      <li>
+        <p>Location of original inforamtion and destination</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Object-related qurstions</p>
+
+    <ul>
+      <li>
+        <p>What is a … - Specific clarifying questions.</p>
+      </li>
+      <li>
+        <p>What do you call this … ?</p>
+      </li>
+      <li>
+        <p>Are there other things like this?</p>
+      </li>
+      <li>
+        <p>What do you do with it? What do others do with it?</p>
+      </li>
+      <li>
+        <p>What do you dislike/like about this?</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Asking about relationships between people, artificatcs or 
+processes, processes, definitions, information, and other 
+interpretations can be very revealing and can help the interviewer 
+get more information. In addition to open-eneded questions, 
+restating what the interviewee has previously said can lead to more 
+information. Additionally, try to fit what you’ve heard into what 
+you know (or think you know). For example, “So <em>this</em> thing is 
+related to <em>that</em> thing because they both <em>something</em>…” This 
+helps you clarify things in your own mind and allows an opportunity 
+for the user or interviewee to correct assumptions that might not 
+be accurate. The professor also noted that it’s okay to interrupt 
+the user if they’re trailing on or if you don’t understand 
+something they’re saying. It’s a huge waste of time to let them 
+continue if you don’t understand what’s going on.</p>
+
+<h2 id="observation">Observation</h2>
+<p>It’s important to look <strong>upstream</strong>, finding where the work comes 
+from, what triggers or cues specific reactions. Also, 
+<strong>downstream</strong> information is important to see where the work goes 
+upon completion. <strong>Why</strong> and <strong>how</strong> things are done helps you 
+understand side effects or reasonings behind what they do.</p>
+
+<h2 id="after-the-interview">After the interview</h2>
+<p>Thank the interviewee, use at least an hour immediately after the 
+interview to review, record, and write down additional questions. 
+It’s important to record your gut feelings or impressions because 
+they can be easily lost. Share what you know what your team 
+members, ask additional questions to the interviewee, and plan next 
+steps for follow-up interviews or other avenues of research.</p>
+
+<h2 id="other-information-gathering-techniques">Other information gathering techniques</h2>
+<ul>
+  <li>
+    <p>Focus groups</p>
+
+    <ul>
+      <li>
+        <p>Can talk to more people than an interview</p>
+      </li>
+      <li>
+        <p>Can hear how people react to what other people say</p>
+      </li>
+      <li>
+        <p>But, there’s a risk of group-think or self-sensorship</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Examining artifacts: documents, tools, objects</p>
+  </li>
+  <li>
+    <p>Competitive analysis</p>
+
+    <ul>
+      <li>
+        <p>Examples of working systems in similar organizations</p>
+      </li>
+      <li>
+        <p>Best practices</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Literature review</p>
+
+    <ul>
+      <li>Case studies, trade magazines, vendor sites, tutorials, 
+etc.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Professional organizations</p>
+
+    <ul>
+      <li>Webinars, white papers, conferences</li>
+    </ul>
+  </li>
+  <li>
+    <p>Surveys</p>
+
+    <ul>
+      <li>
+        <p>Broad way of measuring high level concepts</p>
+      </li>
+      <li>
+        <p>The professor noted these are generally rare because they 
+don’t give you actionable or specific information that helps your 
+research. Usually it requires follow-up.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="september-8-2016">September 8, 2016</h1>
+<p>The professor started the class by reminding the students that there is an upcoming assignment that will be due within the last two weeks.</p>
+
+<h2 id="contextual-design">Contextual design</h2>
+<p>The professor then gave a definition of <strong>contextual design</strong> and 
+cited the textbook definition found on page 3.</p>
+
+<h3 id="who-is-the-expert">Who is the expert?</h3>
+<p>There are several different types of expertise that are required to 
+successfully analyze and manage an information system.</p>
+
+<ol>
+  <li>Task/job expertise - The system users know how to accomplish the 
+work that the system should support.</li>
+  <li>Technical expertise - The system designers and developers know 
+how to design and build systems.</li>
+  <li>Managerial expertise - The managers know how to coordinate and 
+prioritize multiple systems, jobs; negotiate for resources with 
+upper management, understand organization’s strategic goals, etc.</li>
+</ol>
+
+<h3 id="situational-differences">Situational differences</h3>
+<p>The professor then noted several things that may occur in an 
+organization that can make it difficult to successfully implement 
+projects.</p>
+
+<p>The <strong>history of the organization and previous systems projects</strong> 
+can sometimes make management or workers jaded about previous 
+failures. They may also be deluded that past success means that the 
+same plan will work in the future.</p>
+
+<p>The <strong>organizational culture</strong> may prioritize innovation or 
+tradition and the management could be hierarchical or flat 
+structures or a combination, making it difficult to draw 
+comparisons between organizations.</p>
+
+<p><strong>Stakeholder interests and concerns</strong> can collude your success by 
+competing issues.</p>
+
+<p><strong>Available resources</strong> may limit, including time, money, staff, 
+etc.</p>
+
+<p><strong>Nature and severity of the program</strong> can make it difficult to work 
+on the issue. If a critical system must remain online consistently</p>
+
+<p>The <strong>novelty of a problem or system</strong> could mean that the 
+organization could have a bespoke system that makes it more 
+difficult to troubleshoot because each situation is different and 
+has the possibility of never having been faced before by anyone.</p>
+
+<h2 id="user-centered-design">User centered design</h2>
+<p>The professor noted that there are competing ideas about how users 
+needs and opinions should be incorporated in to the design of the 
+system. Swan’s article <em>Making place for clutter…</em> provides a 
+basic overview of how to observe people working in their “clutter” 
+and interviewed them afterwards. These interviews included 
+questions such as, “Why did you do that?” and “What is your 
+rationale for doing this?”</p>
+
+<h3 id="interviews">Interviews</h3>
+<p>Interviews are some of the most important tools that researchers 
+have when coming up with a user-centered design plan. These can be 
+thought of as “richly detailed qualitative accounts” or “thick 
+description” as they help researchers understand what they have 
+observed and can help readers understand what the informant is 
+trying to convey. It is noted that there should be an 
+identification and narrowing down of what is important and relevant 
+to the study. To do this, it requires <strong>non-judgmental 
+observation</strong> from systems analysts.</p>
+
+<p>After the interviews are taken, there are several steps that need 
+to occur to <strong>analyze and generalize</strong> the information that you’ve 
+received.</p>
+
+<h2 id="clutter">Clutter</h2>
+<p>The professor then asked the class to define the term “clutter” 
+found in the reading for this week. It was noted that it can be 
+considered <strong>residue</strong>, or things that don’t seem to go anywhere or 
+have any immediate or obvious purpose. There are some 
+characteristics of physical clutter that can be thought of as 
+similar to <strong>e-clutter</strong> that can be thought of as your Downloads 
+folder. Items are downloaded, sometimes used only once, and then 
+are never looked at again. Other “miscellaneous” folders that, in 
+some cases, can be an embarrassment for users.</p>
+
+<p>The class noted that e-clutter and physical clutter have some 
+similarities, but they are markedly different in outcomes. For 
+instance, physical clutter gives you a level of locational 
+abstraction that e-clutter doesn’t allow. Additionally, e-clutter 
+doesn’t have a built-in value on its surface without thumbnail or 
+other signifying marker. You have to open it to know what it is. 
+The class also noted that the nature of digital files allow you to 
+stash a lot of stuff without thinking about it. When physical files 
+pile up, it becomes a much bigger reminder because it can be a 
+barrier.</p>
+
+<h3 id="group-discussion">Group discussion</h3>
+<p>The professor then broke the class up into groups to discuss 
+symptoms and problems related to clutter that are in the workplace. 
+The class noted that physical clutter in the workplace is often 
+mixed with work-related material and personal documents. This 
+mixture makes it sometimes more difficult to segregate and 
+prioritize information that is needed in a pinch. Additionally, 
+e-clutter is a huge issue in offices, particularly with Outlook, in 
+that it can be very difficult to organize and keep track of 
+messages coming in, particularly when working in teams or with a 
+shared inbox. Other groups noted that text documents or excel 
+spreadsheets get out of sync and often require a “librarian” or 
+editor to piece together and merge the different files into a final 
+master document. Other groups proposed that a move to centralized 
+documents in the cloud with Google Drive could address these 
+issues, but there are often institutional barriers (support, 
+security, etc.) that make it impossible to move to something new.</p>
+
+<h2 id="contextual-interview-exercise">Contextual interview exercise</h2>
+<p>The professor then split the students up into one-on-one partners 
+to practice interviewing each other for a task in which they are 
+experts. Example activities include work activities or commuting to 
+campus. There should be two interviews, we should learn as much as 
+possible about the task, and then switch to learn something about 
+the other person.</p>
+
+<p>After the exercise, the professor noted that the most effective 
+interview questions ask the responder to clarify or expand on what 
+they’ve said. There’s a narrative part, but then there’s a 
+clarifying stage where the interviewer gets more specific 
+information about the general overview. These follow up questions 
+are critical to the success of the interview, particularly if the 
+interviewer is unfamiliar with the topic.</p>
+
+<h1 id="september-1-2016">September 1, 2016</h1>
+<p>The professor started the class by defining a few key terms.</p>
+
+<ul>
+  <li>
+    <p><strong>Components</strong> are symbols or structures that represent objects 
+or concepts in the real world (e.g. shapes, words, icons)</p>
+  </li>
+  <li>
+    <p><strong>Features</strong> are characteristics of the components (e.g. 
+represented by size, color)</p>
+  </li>
+  <li>
+    <p><strong>Relationships</strong> occur among components (e.g. time space 
+authority, sending/receiving and by using layout, lines etc.)</p>
+  </li>
+  <li>
+    <p><strong>Assumptions</strong> are about the world being modeled. It’s important 
+to note that these assumptions can be both accurate or inaccurate.</p>
+  </li>
+</ul>
+
+<h2 id="communication-functions">Communication functions</h2>
+<p>The professor noted 5 communication functions:</p>
+
+<ul>
+  <li>
+    <p><strong>Conscripting</strong> is an act that involves enlisting participation 
+and eliciting reactions and comments (e.g. prototype website: Tell 
+us how you like the new look!)</p>
+  </li>
+  <li>
+    <p><strong>Coordinating</strong> is expressing progress and the provisionality of 
+solution states (e.g. Based on initial analysis, we have determined 
+the breakdown is found in transition from proofreading to 
+publication. Here is a flow-chart of the new process we propose)</p>
+  </li>
+  <li>
+    <p><strong>Framing</strong> is establishing or reaffirming a common ground, 
+typology, or constraint field (e.g. We have determined that the 
+problem lies in the information used in decision making. This 
+decision table details the breakdowns.)</p>
+  </li>
+  <li>
+    <p><strong>Persuading</strong> is convincing a stakeholder, often a prospective 
+client that the solution fulfills project requirements (e.g. 
+Running this simulation model demonstrates how we avoid bottlenecks 
+at high-traffic times)</p>
+  </li>
+  <li>
+    <p><strong>Recording</strong> involves keeping a record of the solution state so 
+that it can be used by others in the future (e.g. Models can 
+document design decisions, templates for future development, or act 
+as user documentation or training materials.)</p>
+  </li>
+</ul>
+
+<p>The professor noted that to avoid errors in models, you can 
+proofread models just like you can proofread writing.</p>
+
+    </div>
+</div>
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 footer">
+              <footer>
+  © 2016 Tim D'Annecy
+</footer>
+
+            </div>
+          </div>
+        </div> <!-- end /.col-md-9 -->
+      </div> <!-- end /.row -->
+    </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://tdannecy.me/static/js/thickbox-compressed.js"></script>
+<script src="http://tdannecy.me/static/js/material.min.js"></script>
+<script src="http://tdannecy.me/static/js/main.js"></script>
+<script src="http://tdannecy.me/static/js/projects.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40317649-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
