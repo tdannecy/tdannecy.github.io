@@ -1,6 +1,6 @@
 ---
 
- layout: post 
+layout: post 
 
 title: KanbanFlow basics 
 
@@ -43,13 +43,13 @@ The magic starts when you create your first task.
 1. Click the **plus symbol** at the top of any column. ![Screenshot of the KanbanFlow To-do entry popup 
 window](/images/2016-07-19-KanbanFlow-To-do-entry.png)
 
-2. From here, you can add a name and a description. We’ll talk about Labels, Color, and Responsibility later.
+1. From here, you can add a name and a description. We’ll talk about Labels, Color, and Responsibility later.
 
-3. There are two time boxes at the bottom of the **Add task** window. Enter the amount of time you think it will take you in the **Time 
+1. There are two time boxes at the bottom of the **Add task** window. Enter the amount of time you think it will take you in the **Time 
 estimate** box on the right. Leave the left box unchanged. It will update itself when you use the timer. ![Screenshot of the KanbanFlow To-do 
 entry popup window and focusing on the Time Estimate box](/images/2016-07-19-KanbanFlow-To-do-time-entry.png)
 
-4. The **Dates** tab at the top of the window allows you to add due dates that correspond with columns. For example, if a project is due next 
+1. The **Dates** tab at the top of the window allows you to add due dates that correspond with columns. For example, if a project is due next 
 week, I would want to mark that down on my Kanban as in the target column “Done.” I would also want to begin working on it at a certain point, 
 so I’ll make a due date for "In progress." ![Screenshot of the KanbanFlow To-do entry popup window with the Dates tab 
 selected](/images/2016-07-19-KanbanFlow-To-do-dates.png)
@@ -61,7 +61,7 @@ Now that you’ve got a task, you can start working! You don’t have to track y
 to get stats on how long you’ve been working on a specific task. It’s a really cool feature that you can use to troubleshoot which tasks are 
 taking too much of your time each week.
 
-![Screenshot of the KanbanFlow timer popup window](/images/2016-07-19-2016-07-19-KanbanFlow-timer.png)
+![Screenshot of the KanbanFlow timer popup window](/images/2016-07-19-KanbanFlow-timer.png)
 
 Choose a task by clicking on the **Select** button. When I’m ready, I just click “Start,” begin working, and the timer counts down.
 
