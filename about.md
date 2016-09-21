@@ -9,6 +9,8 @@ personal webpage. I'll post about feminism and libraries.
 
 ![Photo of Tim D'Annecy](/images/me.jpg)
 
+<div style="text-align:center"><img src ="/images/me.jpg" /></div>
+
 In 2015, I completed a Master's in Women's Studies at the University of Florida. I created the Florida NOW Archive to serve as a digital 
 companion to the physical collection held at the university. You can read about the project [here](/2015/07/15/wst-thesis.html). 
 
