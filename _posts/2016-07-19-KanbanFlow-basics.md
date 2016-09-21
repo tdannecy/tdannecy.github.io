@@ -30,7 +30,7 @@ Kanban: Mapping work, navigating life by Jim Benson](https://www.amazon.com/Pers
 
 1. Click the **Create board** button when you're finished.
 
-![Screenshot of the KanbanFlow board creation settings page](/inbox/2016-07-19-KanbanFlow-create-board.png)
+![Screenshot of the KanbanFlow board creation settings page](/images/2016-07-19-KanbanFlow-create-board.png)
 
 This is the main Kanban workspace. Each column will hold your tasks and you’ll be moving them from left to right as you work. One of the 
 coolest features of KanbanFlow is the ability to track the time it takes for each task. At the end of a week, it can give you a report that 
