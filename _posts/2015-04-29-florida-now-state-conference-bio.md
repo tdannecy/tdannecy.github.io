@@ -6,10 +6,10 @@ published: true
 tags: school 
 ---
  
-I'm speaking about my project at this year's 
-Florida NOW State Conference in a few weeks! I'm very excited 
-about this opportunity and I can't wait to receive feedback on the 
-site and the project as a whole!
+I'm speaking about my project at this year's Florida NOW State 
+Conference in a few weeks! I'm very excited about this opportunity 
+and I can't wait to receive feedback on the site and the project as 
+a whole!
 
 I was asked to write a short bio and I thought I'd post it here:
 
@@ -31,7 +31,8 @@ I was asked to write a short bio and I thought I'd post it here:
 > This past year, Tim has been working diligently on this archival 
 > project and he recently presented his website to Gainesville NOW 
 > and the community in March. In the next few years, he hopes to 
-> bring his technology skills and feminist perspective and pursue 
-> a Master's in Library and Information Science. He can be 
-> contacted at [tdannecy@ufl.edu](mailto:tdannecy@ufl.edu) and the 
-> Florida NOW website is located at http://FLNOWarchive.org/.
+> bring his technology skills and feminist perspective and pursue a 
+> Master's in Library and Information Science. He can be contacted 
+> at [tdannecy@ufl.edu](mailto:tdannecy@ufl.edu) and the Florida 
+> NOW website is located at 
+> [http://FLNOWarchive.org/](http://flnowarchive.org/).

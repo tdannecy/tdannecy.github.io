@@ -5,7 +5,9 @@ published: true
 
 tags: art
 ---
-Here's a collection of interesting drawings that I've come across in newsletter archives.
+
+Here's a collection of interesting drawings that I've come across 
+in newsletter archives.
 
 #### Sexuality and family planning: Perspectives for the mentally ill and handicapped
 ![Drawing of a mentally ill woman](/images/2016-05-31-sexuality-and-family-planning.png "Sexuality and family planning: Perspectives for the mentally ill and handicapped")

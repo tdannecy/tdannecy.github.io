@@ -5,10 +5,16 @@ published: true
 
 tags: art, politics, school
 ---
-I found an interesting poem from a woman who stepped down from her position as chapter president in 1973. Margaret Fifield writes to the members of Pensacola NOW [in a letter](http://flnowarchive.org/mediawiki/index.php/Box_23_Folder_1_Document_2) that makes me wonder what else went on in the chapter. What led her to write this poem?
 
-> Some feminists are like sheep  
-> They'll follow anybody  
+I found an interesting poem from a woman who stepped down from her 
+position as chapter president in 1973. Margaret Fifield writes to 
+the members of Pensacola NOW [in a 
+letter](http://flnowarchive.org/mediawiki/index.php/Box_23_Folder_1_Document_2) 
+that makes me wonder what else went on in the chapter. What led her 
+to write this poem?
+
+> Some feminists are like sheep 
+> They'll follow anybody 
 > Just so they don't have to lead.
 
 > Some feminists are lambs  
