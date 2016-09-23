@@ -35,7 +35,6 @@ LaTeX to the rescue!!
 <script 
 src="https://gist.github.com/tdannecy/0dc406b9678795b0c7d60bae10e639fc.js"></script>
 
-<object data="/projects/2016-08-17-InMagic-thesaurus.pdf" type="application/pdf" width="100%" height="100%">
-</object>
+Here's how the final document turned out!
 
 <iframe src="/projects/2016-08-17-InMagic-thesaurus.pdf" style="width:100%; height:500px;" frameborder="0"></iframe>
