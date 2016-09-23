@@ -30,7 +30,7 @@ LaTeX to the rescue!!
 
  This is important because the CSV reader may import an empty cell as a non-printing character. Further on in the code, we ask LaTeX to define terms, but only if the term 
 
-{% highlight TeX %}
+{% highlight tex %}
 \documentclass[twoside]{article}
 
 % This section has the required packages for changing the CSV into something usable in LaTeX.
