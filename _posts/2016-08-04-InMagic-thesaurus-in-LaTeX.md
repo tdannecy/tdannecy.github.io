@@ -30,7 +30,8 @@ LaTeX to the rescue!!
 
  This is important because the CSV reader may import an empty cell as a non-printing character. Further on in the code, we ask LaTeX to define terms, but only if the term 
 
-<script src="https://gist.github.com/tdannecy/0dc406b9678795b0c7d60bae10e639fc.js"></script>
+<script 
+src="https://gist.github.com/tdannecy/0dc406b9678795b0c7d60bae10e639fc.js"></script>
 
 <object data="projects/InMagic-thesaurus.pdf" type="application/pdf" width="100%" height="100%">
 </object>
