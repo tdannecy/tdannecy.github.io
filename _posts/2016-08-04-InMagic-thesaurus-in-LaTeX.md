@@ -30,7 +30,7 @@ LaTeX to the rescue!!
 
  This is important because the CSV reader may import an empty cell as a non-printing character. Further on in the code, we ask LaTeX to define terms, but only if the term 
 
-{% highlight tex %}
+```tex
 \documentclass[twoside]{article}
 
 % This section has the required packages for changing the CSV into something usable in LaTeX.
@@ -189,7 +189,8 @@ LaTeX to the rescue!!
 \end{document}
 
 Lots of help from: http://tex.stackexchange.com/questions/23100/looking-for-an-ignorespacesandpars/23110#23110 and http://tex.stackexchange.com/questions/42280/expand-away-empty-macros-within-ifthenelse
-{% endhighlight %}
+```
+
 
 <object data="projects/InMagic-thesaurus.pdf" type="application/pdf" width="100%" height="100%">
 </object>
