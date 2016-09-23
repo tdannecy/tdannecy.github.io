@@ -10,11 +10,11 @@ The library that I'm currently working at uses an old cataloging system. Since 2
 
 While [Lucidia's current product page for InMagic](https://archive.is/LEs6I) is shiny and responsive, the application itself is neither. The current version is 15.50, but the company has mothballed the project and only provides sporadic bug fixes and support for catastrophic outages. 
 
-![Screenshot of InMagic DB/Textworks for SQL 15.50](images/2016-08-04-InMagic.png)
+![Screenshot of InMagic DB/Textworks for SQL 15.50](/images/2016-08-04-InMagic.png)
 
 One of the many quirks of InMagic is that it uses its own proprietary database structure and metadata standards. Most new OPAC systems rely on MARC or some other standard (e.g. METS, MODS, Dublin Core) so that they are interoperable with bigger networks like WorldCat or LOC. Transitioning to another catalog system has been an issue for us because we can't easily move records from InMagic into a new one without paying a consultant to convert the database into a standard that's compatible with the new system. Additionally, InMagic doesn't understand MARC records, so we can't import anything. This means that we aren't able to do [copy cataloging](https://archive.is/zxNgm) and have to create each record by hand. To make things worse, InMagic's thesaurus feature is clunky and each descriptor lookup takes about 10-30 seconds, making cataloging a chore.
 
-![Screenshot of a catalog record in InMagic DB/Textworks for SQL 15.50](images/2016-08-04-InMagic-record.png)
+![Screenshot of a catalog record in InMagic DB/Textworks for SQL 15.50](/images/2016-08-04-InMagic-record.png)
 
 While this may be frustrating at times, one of the benefits of having a quirky system like InMagic is that in the absence of a standard being forced upon us, we have developed a bespoke thesaurus to fit our needs. Our library has made additions and tweaks in InMagic based on the terms from the [2010 edition of POPLINE keywords](http://web.archive.org/web/20130404093842/http://www.popline.org/sites/default/files/POPLINEKeywordGuide_NinthEdition.pdf) and we now use descriptors that are completely tailored to our scope of work. In some ways, there are a lot of terms that are the same in our thesaurus and in POPLINE's. Since the fork in 2010, however, we've added terms for project-specific descriptors, updated terms to be more neutral (THIRD WORLD COUNTRIES &gt; DEVELOPING COUNTRIES), and added more information or "near terms" to existing descriptors so that they're easier to understand. 
 
@@ -35,7 +35,7 @@ LaTeX to the rescue!!
 <script 
 src="https://gist.github.com/tdannecy/0dc406b9678795b0c7d60bae10e639fc.js"></script>
 
-<object data="projects/2016-08-17-InMagic-thesaurus.pdf" type="application/pdf" width="100%" height="100%">
+<object data="/projects/2016-08-17-InMagic-thesaurus.pdf" type="application/pdf" width="100%" height="100%">
 </object>
 
 <iframe src="/projects/2016-08-17-InMagic-thesaurus.pdf" style="width:100%; height:500px;" frameborder="0"></iframe>
