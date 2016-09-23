@@ -30,7 +30,166 @@ LaTeX to the rescue!!
 
  This is important because the CSV reader may import an empty cell as a non-printing character. Further on in the code, we ask LaTeX to define terms, but only if the term 
 
+{% highlight tex %}
+\documentclass[twoside]{article}
 
+% This section has the required packages for changing the CSV into something usable in LaTeX.
+\usepackage{xspace}
+\usepackage{xstring}
+\usepackage{csvsimple}
+
+% This section contains semi-optional formatting packages.
+\usepackage[letterpaper]{geometry}
+\geometry{top=.75in, bottom=.75in, left=.75in, right=.5in}
+\usepackage{tabto}
+	\NumTabs{15}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{fancyhdr}
+	\fancyfoot[LE,RO]{\thepage}
+	\renewcommand{\headrulewidth}{.4pt}
+		\fancyhf{}
+		\chead{\bfseries Keyword Dictionary}
+\usepackage{titlesec}
+
+% Defining some basic information about the document.
+\title{InMagic Thesaurus}
+\date{Last updated \\ August 17, 2016}
+\author{Exported from InMagic, slightly modified, and generated in \LaTeX\ .}
+
+% Just generating a pretty title here.
+\titleformat*{\section}{\large\bfseries}
+
+% This section is complicated. It's basically telling LaTeX to treat spaces differently.
+\def\UseEgregsIfNoText{}% 
+\makeatletter
+\def\IgnoreSpacesAndImplicitePars{%
+  \begingroup
+  \catcode13=10
+  \@ifnextchar\relax
+    {\endgroup}%
+    {\endgroup}%
+}
+\def\IgnoreSpacesAndAllPars{%
+  \begingroup
+  \catcode13=10
+  \@ifnextchar\par
+    {\endgroup\expandafter\IgnoreSpacesAndAllPars\@gobble}%
+    {\endgroup}%
+}
+\makeatother
+
+% This section is also a bit complicated, but it tells LaTeX to do certain things if a macro is empty. The macro names come from the next section.
+\ifdefined\UseEgregsIfNoText
+    \newcommand{\IfNoText}[3]{%
+        \sbox0{#1}%
+        \ifdim\wd0=0pt %
+            {#2}%
+        \else%
+          \ifdim0pt=\dimexpr\ht0+\dp0\relax
+            {#2}
+          \else
+            {#3}%
+          \fi
+        \fi%
+    }
+\else
+    \newcommand{\IfNoText}[3]{%
+        \IfStrEq{#1}{\empty}{#2}{#3}%
+    }
+\fi
+\newcommand*{\MandatoryName}{\empty}%
+\newcommand*{\SetName}[1]{\renewcommand*{\MandatoryName}{#1\xspace}}%
+\newcommand{\OptionalUse}{\empty}%
+\newcommand{\SetUse}[1]{%
+    \IfNoText{#1}{% 
+        %
+    }{%
+        \gdef\OptionalUse{\ignorespaces#1}%
+    }%
+}%
+\newcommand{\OptionalNote}{\empty}%
+\newcommand{\SetNote}[1]{%
+    \IfNoText{#1}{% 
+        %
+    }{%
+        \gdef\OptionalNote{\ignorespaces#1}%
+    }%
+}%
+\newcommand{\OptionalBT}{\empty}%
+\newcommand{\SetBT}[1]{%
+    \IfNoText{#1}{% 
+        %
+    }{%
+        \gdef\OptionalBT{\ignorespaces#1}%
+    }%
+}%
+\newcommand{\OptionalNT}{\empty}%
+\newcommand{\SetNT}[1]{%
+    \IfNoText{#1}{% 
+        %
+    }{%
+        \gdef\OptionalNT{\ignorespaces#1}%
+    }%
+}%
+\newcommand{\OptionalRT}{\empty}%
+\newcommand{\SetRT}[1]{%
+    \IfNoText{#1}{% 
+        %
+    }{%
+        \gdef\OptionalRT{\ignorespaces#1}%
+    }%
+}%
+
+
+% All of these commands in this section are arbitrarily named and point to the therms that are named in the CSV reader section. Essentially, this section uses macros that are defined in the previous sections to generate each definition section. There's some text formatting stuff in here too, including using the 'tabto' package to space things nicely.
+\newcommand*{\Show}{%
+    \section*{\MandatoryName}
+    \IfNoText{\OptionalUse}{}{%
+        \underline{use:}~\vbox{\textbf{\OptionalUse}}
+    }%
+     \IfNoText{\OptionalNote}{}{%
+         \vbox{\small\textit{\OptionalNote}}
+    }%
+    \IfNoText{\OptionalBT}{}{%
+         \tab\textbf{BT:}~\tab\OptionalBT\\
+    }% 
+    \IfNoText{\OptionalNT}{}{%
+         \tab\tab\textbf{NT:}~\tab\OptionalNT\\
+    }% 
+    \IfNoText{\OptionalRT}{}{%
+         \tab\tab\textbf{RT:}~\tab\OptionalRT
+    }%
+}
+
+% Now that all of that technical stuff is out of the way, this part is to actually generate the document.
+\begin{document}
+
+% More formatting stuff.
+\begin{multicols}{2}
+\pagestyle{fancy}
+
+% This first part tells the CSV reader to import the entries from the spreadsheet and turn them into defined names, depending on the column that they're in. The cool thing here is that these commands repeat for each line in the CSV file and the macros defined from the spreadsheet get redefined each time it repeats.
+% Also note that I had to change the CSV separator to semicolon (I also changed it on my computer in the Locale settings) because some of the thesaurus defintions have commas and it was screwing up the import. 
+% Also note that the terms that are defined are related to the commands in the previous section and come directly from the CSV file headers.
+\csvreader[separator=semicolon,head to column names]{Data.csv}{Term=\Term,Use=\Use,Note=\Note,BT=\BT,NT=\NT,RT=\RT}
+{%
+    \SetName{\Term}
+    \SetUse{\Use}
+    \SetNote{\Note}
+    \SetBT{\BT}
+    \SetNT{\NT}
+    \SetRT{\RT}
+    \raggedcolumns\Show
+}%
+
+\end{multicols}
+
+\end{document}
+
+Lots of help from: http://tex.stackexchange.com/questions/23100/looking-for-an-ignorespacesandpars/23110#23110 and http://tex.stackexchange.com/questions/42280/expand-away-empty-macros-within-ifthenelse
+{% endhighlight %}
 
 <object data="projects/InMagic-thesaurus.pdf" type="application/pdf" width="100%" height="100%">
 </object>
