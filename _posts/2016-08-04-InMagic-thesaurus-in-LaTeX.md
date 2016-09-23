@@ -5,7 +5,7 @@ layout: post
 title: Generating a printable document with LaTeX from an InMagic thesaurus
 
 
-published: false
+published: true
 
 tags: library, tech, LaTeX
 
