@@ -8,7 +8,7 @@ tags: library, tech, LaTeX
 
 The library that I'm currently working at uses an old cataloging system. Since 2000, InMagic DB/Textworks for SQL has been our workhorse. We rely on it for circulation, acquisitions, cataloging, generating reports, and to manage our serial subscriptions on a daily basis. On top of the backend database, we have additional modules that serve a public-facing catalog for employees on our intranet.
 
-While [Lucidia's current product page for InMagic](https://archive.is/LEs6I) is shiny and responsive, the application itself is neither. The current version is 15.50, but the company has mothballed the project and only provides sporadic bug fixes and support for catastrophic outages. 
+While [Lucidia's current product page for InMagic](http://lucidea.com/inmagic/dbtextworks/) is shiny and responsive, the application itself is neither. The current version is 15.50, but the company has mothballed the project and only provides sporadic bug fixes and support for catastrophic outages. 
 
 ![Screenshot of InMagic DB/Textworks for SQL 15.50](/images/2016-08-04-InMagic.png)
 
