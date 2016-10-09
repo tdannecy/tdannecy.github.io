@@ -122,14 +122,13 @@ just geography. In our library, that *more* is complicated. While
 you may have an idea what *more* is, someone else has an idea 
 too.
 
-Cornell's development policy explicitly defines regions within the 
-Middle East. That delineation should be our standard. If we're 
-talking about practicalities, big regional terms aren't very useful 
-for cataloging and we should get rid of them. When we do research, 
-if we rely too much on our understanding of the term, we might be 
-missing out on some great resources that fell between the cracks. A 
-cataloger (like me) might just back away from the "India is in the 
-Middle East" problem and make things complicated for someone in the 
-future. 
-
-At the end of the day, "Middle East" is as helpful as "Africa."
+Cornell's got their definition. That delineation is great for their 
+collection. If we're talking about practicalities, big regional 
+terms like that aren't very useful for our work and we think we 
+should just get rid of them. When we do research, if we rely too 
+much on our understanding of the term, we might be missing out on 
+some great resources that fell between the cracks. A cataloger 
+(like me) might just back away from the "India is in the Middle 
+East" problem and make things complicated for someone in the 
+future. At the end of the day, for us, "Middle East" is as helpful 
+as "Africa."
