@@ -7,8 +7,8 @@ published: true
 ---
 
 For one of my classes, we looked over several collection policies 
-to compare and contrast the different approaches to development.One 
-of the collections that stood out to me was the [Middle East & 
+to compare and contrast the different approaches to development. 
+One of the collections that stood out to me was the [Middle East & 
 Islamic Studies Collection](http://archive.is/ZHID2) at Cornell. It 
 is was written in a way that there are no ambiguities for what to 
 call the "Middle East."
@@ -46,13 +46,13 @@ into "core" and "periphery" groupings. The periphery group is then
 broken down in to several smaller areas, with Cyprus being the 
 outlier.
 
-** The Core ** - Bahrain; Egypt; Iran; Iraq; Israel; Jordan; 
+**The Core** - Bahrain; Egypt; Iran; Iraq; Israel; Jordan; 
 Kuwait; Lebanon; Oman; Palestine; Qatar; Saudi Arabia; Syria; 
 Turkey ; United Arab Emirates (federation comprised of seven 
 sheikdoms: Ajman, Abu Dhabi, Dubai, Fujairah, Ras al-Khaimah, 
 Sharjah, and Umm al-Qawain); Yemen
 
-** The Periphery **
+**The Periphery**
 
 * **The Caucuses**: Armenia, Azerbaijan, Georgia;
 
