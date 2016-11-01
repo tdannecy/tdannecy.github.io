@@ -1,15 +1,17 @@
---
+---
 layout: post
 title: Redacting many Microsoft Word files quickly
---
 
-Recently, my organization was cleaning out their files on SharePoint and moving them to be archived. The main concern with this was privacy as many of 
-the documents in the collecion have sensitive information. All of these files were stored in SharePoint, making it really difficult to work with them 
+tags: tech
+published: true
+---
+
+Recently, my organization was cleaning out their files on SharePoint and moving them to be archived. The main concern with this was privacy as many of the documents in the collecion have sensitive information. All of these files were stored in SharePoint, making it really difficult to work with them 
 (download, edit, save, upload, repeat).
 
 So, here's what I did to redact the 30,000 files.
 
-| ​The Duke Archive project involved over 30,000 documents. ​​​​To make sure these documents are completely rid of sensitive information, you're going to need to do several things to ​make the process easier and to make sure you find and redact everything you're looking for.
+First of all, ​​​to make sure these documents are completely rid of sensitive information, you're going to need to do several things to ​make the process easier and to make sure you find and redact everything you're looking for.
 
 
 # Mounting the ​SharePoint folder
@@ -17,32 +19,26 @@ So, here's what I did to redact the 30,000 files.
 
 Before we begin working on the files, we need to mount the SharePoint folder to your computer so that Windows treats it like a local folder on your hard drive. 
 
+1.  Navigate to **Start > Computer**. In the top toolbar, click **Map network drive**. ![2016-04-18_09-41-56.png](/sites/KS/team/SiteAssets/Procedure%20Manual/Redacting%20archival%20material%20for%20Duke/2016-04-18_09-41-56.png)
 
-1.  Navigate to **​Start > Computer**. In the top toolbar, click **Map network drive**. ![2016-04-18_09-41-56.png](/sites/KS/team/SiteAssets/Procedure%20Manual/Redacting%20archival%20material%20for%20Duke/2016-04-18_09-41-56.png)
 
-
-2.  Now, open your browser and navigate to the folder location you want in Luna. For this example, the Duke folder is located at <span class="ms-rteThemeBackColor-4-0">https://luna.ipas.org/sites/KS/dukearchives/​
+2.  Now, open your browser and navigate to the folder location you want on SharePoint.
 
 3.  Copy and paste that address into the Folder location in the Map network drive window. The drive letter doesn't matter, so you can change it to whatever is available in the list. Check the box to enable **Reconnect at logon** and then, click **Finish.** ![explorer_2016-04-18_09-51-43.png](/sites/KS/team/SiteAssets/Procedure%20Manual/Redacting%20archival%20material%20for%20Duke/explorer_2016-04-18_09-51-43.png)
 
 
-Now, you can​ work with the files on the SharePoint server without having to download/upload every time you edit them.
+Now, you can work with the files on the SharePoint server without having to download/upload every time you edit them.
 
 
-# Rena​ming​​ files
-
+# Renaming files
 
 Many of the files in the Duke Archive had donor names in the filennames. One single file is easy to rename, but when we're dealing with a lot, it will take you forever if you rename each file one by one. We're going to use two programs to rename files in bulk.
 
+## Bulk Rename Utility
 
-## Bulk Rename Uti​​lity
+This is a slow application, but it gets the job done. 
 
-
-​This is a slow application, but it gets the job done. 
-
-
-1.  [​Download the program​](http://www.bulkrenameutility.co.uk/Download.php) and install it. 
-
+1.  [Download the program](http://www.bulkrenameutility.co.uk/Download.php) and install it. 
 
 2.  Open the program. There are TONS of options and features that you can use, but we're only going to use a few features. Locate your mounted SharePoint drive in the top left pane and navigate to the folder with all of the targeted files. ![Bulk Rename Utility_2016-04-18_10-40-11.png](/sites/KS/team/SiteAssets/Procedure%20Manual/Redacting%20archival%20material%20for%20Duke/Bulk%20Rename%20Utility_2016-04-18_10-40-11.png)
 
@@ -169,19 +165,13 @@ First, we have to tell Word to loosen up on security so that we can open up ever
 
 5.  Click on the Minimize button within DocFetcher to hide the window. ![minimize.PNG](/sites/KS/team/SiteAssets/Procedure%20Manual/Redache bottom left "Search Scope" pane and you can begin searching through the documents. For this example, I'm going to find the word "Ipas" in every file.
 
-
 1.  In the bottom left "Search Scope" pane, make sure that you have added a checkmark to the folders you want to search.
-
 
 2.  At the top of the window, type your search term in the white search bar and click on "Search".
 
+3.  The results will populate in the main window pane. You can sort these using the column headers. For this example, we're going to redact information from Word documents (DOC or DOCX files). Sorting by filetype will be the most useful.
 
-3.  The results will populate in the main window pane. You can sort these using the column headers. For this example, we're going to redact information from Word documents (DOC or DOCX files). Sorting by filetype will be the most useful. ​
-
-
-4.  You can click on the arrow on the bottom of the screen to open up a preview of the text within the file. It will highlight your search term. You can click on the up and down arrows at the top of the pane to turn the page.​
-
-    ​![2016-04-14_15-39-05.png](/sites/KS/team/SiteAssets/Procedure%20Manual/Redacting%20archival%20material%20for%20Duke/2016-04-14_15-39-05.png)
+4.  You can click on the arrow on the bottom of the screen to open up a preview of the text within the file. It will highlight your search term. You can click on the up and down arrows at the top of the pane to turn the page. ![2016-04-14_15-39-05.png](/sites/KS/team/SiteAssets/Procedure%20Manual/Redacting%20archival%20material%20for%20Duke/2016-04-14_15-39-05.png)
 
 
 <div>When you locate the file you want to redact, double-click on the file name to open it up in the default application. You can open up 10 files at a time. If you've opened up a Word document, you can make changes and redact the sensitive information by hand. If you're using the macro, it will automatically remove all of the text that you've specified. Just be sure to go through the document to make sure your macro removed everything correctly. When you save the file, it will automatically create a new version on SharePoint, so you don't have to worry about reuploading or any of that SharePoint nonsense.
