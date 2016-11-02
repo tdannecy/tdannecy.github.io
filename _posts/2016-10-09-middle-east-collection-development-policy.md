@@ -1,9 +1,11 @@
 --- 
+
 layout: post 
 title: Collection policies and the "Middle East"
 
 tags: school
 published: true
+
 ---
 
 For one of my classes, we looked over several collection policies 
