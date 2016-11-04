@@ -6,7 +6,7 @@ tags: tech
 published: true
 ---
 
-Recently, my organization was cleaning out their files on SharePoint and moving them to be archived. The main concern with this was privacy as many of the documents in the collecion have sensitive information. All of these files were stored in SharePoint, making it really difficult to work with them (download, edit, save, upload, repeat).
+Recently, my organization was cleaning out their files on SharePoint and moving them to be archived. The main concern with this was privacy as many of the documents in the collection have sensitive information. All of these files were stored in SharePoint, making it really difficult to work with them (download, edit, save, upload, repeat).
 
 So, here's what I did to redact the 30,000 files. I'm using Windows 7 and the most up to date software as of 2016.
 
@@ -40,7 +40,7 @@ This is a slow application, but it gets the job done. 
 
 4.  When the program is finished building the list, you can begin to rename the filenames. In box 3, type the name of the word you want to redact in the **Replace** field. In the Duke archives, I'm going to use a donor name. In the **With** field, I'm going to type "XXX DONOR". Then, click in the file list pane at the top right of the window and press **Ctrl + a** on the keyboard to select all of the files. This process might take some time, so be patient. You can check the status of the selection in the bottom of the window. ![Bulk Rename Utility_main window screenshot indicating the Replace field](/images/2016-11-01-Bulk-Rename-Utility-screenshot-replace.png)
 
-5.  When the process is complete, click the **Rename **button at the bottom right of the window. The popup will give you a summary of the changes you will make to the files. Click **OK **if everything looks right. ![Bulk Rename Utility_sreenshot of completed window](/images/2016-11-01-Bulk-Rename-Utility-screenshot-complete.png)
+5.  When the process is complete, click the **Rename **button at the bottom right of the window. The popup will give you a summary of the changes you will make to the files. Click **OK **if everything looks right. ![Bulk Rename Utility screenshot of completed window](/images/2016-11-01-Bulk-Rename-Utility-screenshot-complete.png)
 
 This process will take a long time, maybe over an hour. Minimize the program and ignore it for a while. A dialog window will popup with the results of the rename process when it is complete. The program may say "Not Responding" in the title bar, but rest assured that it's still running in the background. Ignore the warnings and just let it run.
 
@@ -129,4 +129,4 @@ To find the names within the document text, you'll need to build an index and se
 
 4.  You can click on the arrow on the bottom of the screen to open up a preview of the text within the file. It will highlight your search term. You can click on the up and down arrows at the top of the pane to turn the page. ![Screenshot of the DocFetcher preview pane](/images/2016-11-01-Doc-Fetcher-screenshot-preview.png)
 
-When you locate the file you want to redact, double-click on the file name to open it up in the default application. You can open up 10 files at a time. If you've opened up a Word document, you can make changes and redact the sensitive information by hand. If you're using the macro, it will automatically remove all of the text that you've specified. Just be sure to go through the document to make sure your macro removed everything correctly. When you save the file, it will automatically create a new version on SharePoint, so you don't have to worry about reuploading or any of that SharePoint nonsense.
+When you locate the file you want to redact, double-click on the file name to open it up in the default application. You can open up 10 files at a time. If you've opened up a Word document, you can make changes and redact the sensitive information by hand. If you're using the macro, it will automatically remove all of the text that you've specified. Just be sure to go through the document to make sure your macro removed everything correctly. When you save the file, it will automatically create a new version on SharePoint, so you don't have to worry about re-uploading or any of that SharePoint nonsense.
