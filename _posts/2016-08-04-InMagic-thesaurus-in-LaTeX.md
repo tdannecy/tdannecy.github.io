@@ -35,6 +35,8 @@ Instead, I opened the thesaurus file in InMagic and exported it to an ASCII .csv
 
 The Delimiter Options are important, but I didn't realize some of the issues I'd have later on down the line. InMagic actually gives you a lot of freedom to input whatever character you want in the field. The Record Separator refers to the divider between each term. In this case, when we look at the exported spreadsheet, these are the rows. The default option {CR}{LF} inserts line breaks. The Field Separator option refers to the character that goes between each section of the term. In this case, when we look at the exported spreadsheet, these are the columns. The Entry Separator option refers to the character that goes in between multiple items in a column. For this example, our terms have several synonyms that fall under one column. The Comment field isn't relevant to this export, so I left it at the default value. The Quote Character option is important 
 
+![Screenshot of InMagic's export wizard on the File Format tab](/images/2016-08-04-InMagic-export-file-format-tab.png)
+
 
 I wanted the printed document to be formatted like a traditional dictionary (term, definition, synonyms, etc.), so I only selected a few fields for InMagic to export.
 
