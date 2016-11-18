@@ -29,7 +29,7 @@ I definitely didn't want to slog through 200+ pages of descriptors, updating eac
 
 I started investigating by looking at the thesaurus database file that InMagic uses. It's a .cba file and I wasn't able to edit the file in Excel or in Notepad++ because the encoding is old and/or proprietary.
 
-![Screenshot of InMagic's thesaurus file](images/2016-08-04-InMagic-thesaurus.png)
+![Screenshot of InMagic's thesaurus file](/images/2016-08-04-InMagic-thesaurus.png)
 
 Instead, I opened the thesaurus file in InMagic and exported it to an ASCII .csv file, saved or encapsulated in a .dmp file. The export process can be overwhelming if you're not sure what you're looking for. In my best guess, I'd say that the InMagic Tagged Format is the proprietary format that I tried to read earlier. It's not helpful in this export either. The XML might be helpful, but I think that the ASCII format was the simplest and most useful solution for this project.
 
@@ -44,8 +44,8 @@ Now that I had everything in a spreadsheet, I just needed a way to automatically
 
 [LaTeX](http://sharelatex.com) to the rescue!!
 
-<script src="https://gist.github.com/tdannecy/0dc406b9678795b0c7d60bae10e639fc.js">
-</script>
+<script 
+src="https://gist.github.com/tdannecy/0dc406b9678795b0c7d60bae10e639fc.js"></script>
 
 Here's how the final document turned out!
 
