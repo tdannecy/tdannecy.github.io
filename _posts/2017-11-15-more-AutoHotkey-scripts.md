@@ -15,16 +15,16 @@ Just press the Control + Space key and it will toggle the current window to lock
 the others. This can get a bit wonky with multiple windows on top, but most of the time it 
 works great.
 
-~~~
+{% highlight %}
 ^SPACE::  Winset, Alwaysontop, , A
-~~~
+{% endhighlight %}
 
 ## CtrlShiftSpaceRollUp.ahk
 
 Press the Control + Shift + Space key to toggle the currently active window roll status. 
 This script acts wonky sometimes depending on how the window is composited, so beware.
 
-~~~
+{% highlight %}
 ws_MinHeight = 0
 
 OnExit, ExitSub
@@ -56,7 +56,7 @@ Loop, Parse, ws_IDList, |
     WinMove, ahk_id %A_LoopField%,,,,, %ws_Height%
 }
 ExitApp
-~~~
+{% endhighlight %}
 
 ## pppassword.ahk
 
@@ -78,7 +78,7 @@ punctuation characters would be easy to hand write when giving them to new emplo
 that each symbol would not require a US keyboard (no dollar signs, etc.).
 
 
-~~~
+{% highlight %}
 ListOfColors:=["Red", "Green", "Blue", "Yellow", "Orange"]
 ListOfFruits:=["Banana", "Mango", "Grape", "Apple", "Peach", "Melon"]
 ListOfSymbols:=["{!}", "{@}", "{#}", "{%}", "{^}", "{&}", "{*}"]
@@ -99,4 +99,4 @@ Random(a,b)
 	Random, ReturnVal, a, b
 	return ReturnVal
 }
-~~~
+{% endhighlight %}
