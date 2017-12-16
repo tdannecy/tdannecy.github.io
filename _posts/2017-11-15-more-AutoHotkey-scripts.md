@@ -6,11 +6,14 @@ published: true
 tags: tech
 ---
 
-I've got some more AutoHotkey scripts that I wanted to share! These have been extremely helpful to me at work and I use them every day.
+I've got some more AutoHotkey scripts that I wanted to share! These have been extremely 
+helpful to me at work and I use them every day.
 
 ## CtrlSpaceOnTop.ahk
 
-Just press the Control + Space key and it will toggle the current window to lock on top of the others. This can get a bit wonky with multiple windows on top, but most of the time it works great.
+Just press the Control + Space key and it will toggle the current window to lock on top of 
+the others. This can get a bit wonky with multiple windows on top, but most of the time it 
+works great.
 
 ```
 ^SPACE::  Winset, Alwaysontop, , A
@@ -22,38 +25,38 @@ Press the Control + Shift + Space key to toggle the currently active window roll
 This script acts wonky sometimes depending on how the window is composited, so beware.
 
 ```
-ws_MinHeight = 0
+	ws_MinHeight = 0
+	
+	OnExit, ExitSub
+	return
+	
+	^+SPACE::
+	WinGet, ws_ID, ID, A
+	Loop, Parse, ws_IDList, |
+	{
+	    IfEqual, A_LoopField, %ws_ID%
+	    {
+	        StringTrimRight, ws_Height, ws_Window%ws_ID%, 0
+	        WinMove, ahk_id %ws_ID%,,,,, %ws_Height%
+	        StringReplace, ws_IDList, ws_IDList, |%ws_ID%
+	        return
+	    }
+	}
+	WinGetPos,,,, ws_Height, A
+	ws_Window%ws_ID% = %ws_Height%
+	WinMove, ahk_id %ws_ID%,,,,, %ws_MinHeight%
+	ws_IDList = %ws_IDList%|%ws_ID%
+	return
 
-OnExit, ExitSub
-return
-
-^+SPACE::
-WinGet, ws_ID, ID, A
-Loop, Parse, ws_IDList, |
-{
-    IfEqual, A_LoopField, %ws_ID%
-    {
-        StringTrimRight, ws_Height, ws_Window%ws_ID%, 0
-        WinMove, ahk_id %ws_ID%,,,,, %ws_Height%
-        StringReplace, ws_IDList, ws_IDList, |%ws_ID%
-        return
-    }
-}
-WinGetPos,,,, ws_Height, A
-ws_Window%ws_ID% = %ws_Height%
-WinMove, ahk_id %ws_ID%,,,,, %ws_MinHeight%
-ws_IDList = %ws_IDList%|%ws_ID%
-return
-
-ExitSub:
-Loop, Parse, ws_IDList, |
-{
-    if A_LoopField =
-        continue
-    StringTrimRight, ws_Height, ws_Window%A_LoopField%, 0
-    WinMove, ahk_id %A_LoopField%,,,,, %ws_Height%
-}
-ExitApp
+	ExitSub:
+	Loop, Parse, ws_IDList, |
+	{
+	    if A_LoopField =
+	        continue
+	    StringTrimRight, ws_Height, ws_Window%A_LoopField%, 0
+	    WinMove, ahk_id %A_LoopField%,,,,, %ws_Height%
+	}
+	ExitApp
 ```
 
 ## pppassword.ahk
