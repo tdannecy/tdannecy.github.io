@@ -13,7 +13,9 @@ I've got some more AutoHotkey scripts that I wanted to share! These have been ex
 Just press the Control + Space key and it will toggle the current window to lock on top of the others. This can get a bit wonky with multiple windows on top, but most of the time it works great.
 
 ```
+
 ^SPACE::  Winset, Alwaysontop, , A
+
 ```
 
 ## CtrlShiftSpaceRollUp.ahk
@@ -21,6 +23,7 @@ Just press the Control + Space key and it will toggle the current window to lock
 Press the Control + Shift + Space key to toggle the currently active window roll status. This script acts wonky sometimes depending on how the window is composited, so beware.
 
 ```
+
 ws_MinHeight = 0
 
 OnExit, ExitSub
@@ -53,6 +56,7 @@ Loop, Parse, ws_IDList, |
     WinMove, ahk_id %A_LoopField%,,,,, %ws_Height%
 }
 ExitApp
+
 ```
 
 ## pppassword.ahk
@@ -63,7 +67,9 @@ I thought I would make the passwords a mix of a color, a fruit, a two-digit numb
 
 You can add more colors, fruits, and symbols, but I wanted to make sure that the punctuation characters would be easy to hand write when giving them to new employees and that each symbol would not require a US keyboard (no dollar signs, etc.).
 
+
 ```
+
 ListOfColors:=["Red", "Green", "Blue", "Yellow", "Orange"]
 ListOfFruits:=["Banana", "Mango", "Grape", "Apple", "Peach", "Melon"]
 ListOfSymbols:=["{!}", "{@}", "{#}", "{%}", "{^}", "{&}", "{*}"]
@@ -84,6 +90,5 @@ Random(a,b)
 	Random, ReturnVal, a, b
 	return ReturnVal
 }
-```
 
-##
+```
