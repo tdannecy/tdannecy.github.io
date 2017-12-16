@@ -57,7 +57,7 @@ ExitApp
 
 ## pppassword.ahk
 
-By typing "ppp", this script generates a sufficiently random string of text that can be used for passwords. I wanted to make the text easy to remember, but hard to crack with a brute force attack (explained nicely by [XKCD 936](https://xkcd.com/936/) [[A]](http://archive.is/978wk) and more in detail on the [wiki page](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) [[A]](http://archive.is/tzklt).
+By typing "ppp", this script generates a sufficiently random string of text that can be used for passwords. I wanted to make the text easy to remember, but hard to crack with a brute force attack (explained nicely by [XKCD 936](https://xkcd.com/936/) [A](http://archive.is/978wk) and more in detail on the [wiki page](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) [A](http://archive.is/tzklt).
 
 I thought I would make the passwords a mix of a color, a fruit, a two-digit number, and a punctuation character. This combination creates a human readable and memorable string, but [rated on password checkers](http://www.passwordmeter.com/), is exceptionally strong. [Some sites](https://howsecureismypassword.net/) estimate that it would take an average of tens of thousands, if not millions, of years to crack.
 
