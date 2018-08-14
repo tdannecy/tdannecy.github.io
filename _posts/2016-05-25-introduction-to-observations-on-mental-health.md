@@ -7,7 +7,9 @@ tags: Soviet, politics
 ---
 
 I found an interesting article written by psychologist Henry P. David (1923-2009) and I thought I 
-would share it. His life story and academic work are also of note. As a child, he escaped the Nazis and 
+would share it. This report was fascinating and I wanted to know more about him after discovering some 
+of his later work. In addition to this report, I found that his life story and academic work are worth a read. 
+As a child, he escaped the Nazis and 
 immigrated to the US. Over his distinguished career, Henry founded the Transnational Family Research 
 Institute and studied on mental health and population issues in developing countries and in the Eastern 
 Bloc. This quote sheds light on the Soviet psychological profession in the early 1970s as seen from 
