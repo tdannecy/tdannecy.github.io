@@ -6,6 +6,17 @@ published: true
 tags: Soviet, politics
 ---
 
+I found an interesting article written by psychologist Henry P. David (1923-2009) and I thought I 
+would share it. His life story and academic work are also of note. As a child, he escaped the Nazis and 
+immigrated to the US. Over his distinguished career, Henry founded the Transnational Family Research 
+Institute and studied on mental health and population issues in developing countries and in the Eastern 
+Bloc. This quote sheds light on the Soviet psychological profession in the early 1970s as seen from 
+Henry's 
+outsider perspective. More information about Henry David can be found on [this 
+page](http://www.apa.org/international/pi/2010/04/tribute-david.aspx) 
+[[A]](http://archive.is/P3j9G).
+
+
 > Today, more than 50 years after the October 1917 revolution, 
 > Soviet life reflects a mixture of ageless Russian culture, 
 > evolving Marxist ideology and the dynamics of modern technology. 
