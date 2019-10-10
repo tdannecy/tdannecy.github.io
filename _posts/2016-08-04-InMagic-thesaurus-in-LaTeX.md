@@ -5,7 +5,12 @@ published: true
 tags: 'library, tech, LaTeX'
 ---
 
-The library that I'm currently working at uses an old cataloging system. Since 2000, InMagic DB/Textworks for SQL has been our workhorse. We rely on it for circulation, acquisitions, cataloging, generating reports, and to manage our serial subscriptions on a daily basis. On top of the backend database, we have additional modules that serve a public-facing catalog for employees on our intranet.
+The library that I'm currently working at uses an old cataloging system. Since 
+2000, InMagic DB/Textworks for SQL has been our workhorse. We rely on it for 
+circulation, acquisitions, cataloging, generating reports, and to manage our 
+serial subscriptions on a daily basis. On top of the backend database, we have 
+additional modules that serve a public-facing catalog for employees on our 
+intranet.
 
 While [Lucidia's current product page for InMagic](http://lucidea.com/inmagic/dbtextworks/) is shiny and responsive, the application itself is neither. The current version is 15.50, but the company has mothballed the project and only provides sporadic bug fixes and support for catastrophic outages. 
 
@@ -27,11 +32,11 @@ You probably saw this coming, but there's no quick way to print the thesaurus an
 
 I definitely didn't want to slog through 200+ pages of descriptors, updating each term from the InMagic entry, and then waiting 10-30 seconds for each lookup. I knew there had to be a better way to generate a list of terms without having to type each one by hand.
 
-I started investigating by looking at the thesaurus database file that InMagic uses. It's a .cba file and I wasn't able to edit the file in Excel or in Notepad++ because the encoding is old and/or proprietary.
+I started investigating by looking at the thesaurus database file that InMagic uses. It's a `.cba` file and I wasn't able to edit the file in Excel or in Notepad++ because the encoding is old and/or proprietary.
 
 ![Screenshot of InMagic's thesaurus file](/images/2016-08-04-InMagic-thesaurus.png)
 
-Instead, I opened the thesaurus file in InMagic and exported it to an ASCII .csv file, saved or encapsulated in a .dmp file. The export process can be overwhelming if you're not sure what you're looking for. In my best guess, I'd say that the InMagic Tagged Format is the proprietary format that I tried to read earlier. It's not helpful in this export either. The XML might be helpful, but I think that the ASCII format was the simplest and most useful solution for this project.
+Instead, I opened the thesaurus file in InMagic and exported it to an ASCII `.csv` file, saved or encapsulated in a .dmp file. The export process can be overwhelming if you're not sure what you're looking for. In my best guess, I'd say that the InMagic Tagged Format is the proprietary format that I tried to read earlier. It's not helpful in this export either. The XML might be helpful, but I think that the ASCII format was the simplest and most useful solution for this project.
 
 The Delimiter Options are important, but I didn't realize some of the issues I'd have later on down the line. InMagic actually gives you a lot of freedom to input whatever character you want in the field. The Record Separator refers to the divider between each term. In this case, when we look at the exported spreadsheet, these are the rows. The default option {CR}{LF} inserts line breaks. The Field Separator option refers to the character that goes between each section of the term. In this case, when we look at the exported spreadsheet, these are the columns. The Entry Separator option refers to the character that goes in between multiple items in a column. For this example, our terms have several synonyms that fall under one column. The Comment field isn't relevant to this export, so I left it at the default value. The Quote Character option is important 
 
