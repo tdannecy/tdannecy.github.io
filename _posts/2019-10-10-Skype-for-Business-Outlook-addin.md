@@ -8,7 +8,7 @@ tags: tech
 
 I have had to run this script to re-enable the meetings plugin for Outlook countless times. We're running Office 365 and I have an E5 license and it seems like Outlook just likes to turn off this plugin. Here's how you can use Powershell to turn it back on.
 
-```
+```powershell
 $AddinName = 'UCAddin.dll'
 $ErrorActionPreference = 'SilentlyContinue'
 $OutlookVersion = (Get-Item HKLM:\SOFTWARE\Classes\Outlook.Application\CurVer)."(default)".Replace("Outlook.Application.", "")
