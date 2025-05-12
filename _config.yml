@@ -1,8 +1,8 @@
 title: Tim D'Annecy
-description: Tim's personal site
+description: tdannecy@gmail.com
 author: Tim D'Annecy
-logo: /images/dannecyt.jpg
-about: Graduate student in North Carolina
+logo: /images/tdannecy.webp
+about: tdannecy@gmail.com
 
 baseurl: "http://tdannecy.me"
 url: "http://tdannecy.me"
@@ -11,9 +11,6 @@ disqus_shortname: tdannecy
 google_analytics: UA-40317649-7
 
 share:
-  twitter_username: tdannecy
-  fb_appid: 000000000000
-
 
 enableTags: true
 tagarray: []
